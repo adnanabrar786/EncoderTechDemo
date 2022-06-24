@@ -1,0 +1,141 @@
+.Technologis_container {
+  padding-bottom: 50px;
+  /* margin-bottom: 100px; */
+}
+
+.Technologies_paragraph_container {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-left: 65px;
+  background-color: rgba(0, 0, 0, 0.027451);
+}
+
+.Technologies_leftparagraph_heading {
+  color: var(--orange);
+  letter-spacing: 12px;
+  font-size: 18px;
+  font-family: "Poppins Medium";
+}
+
+.Technologies_leftparagraph_para {
+  width: 90%;
+  font-size: 43px;
+}
+
+.Technologies_Rightparagraph {
+  border-left: 1px solid var(--grey);
+}
+
+.Technologies_Rightparagraph_paragraph {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 85%;
+  font-family: "Poppins Light";
+}
+
+/* Technologis crad start*/
+.Technologis_card_Map_container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.027451);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+}
+
+.Card_Technologies_ParagraphWork {
+  display: flex;
+  padding-top: 20px;
+}
+
+.Card_Technologies_cradlogo {
+  width: 65px;
+  height: 65px;
+  color: #808080;
+}
+
+.Card_Technologies_ParagraphWork_paraDiv {
+  width: 80%;
+  margin-left: 30px;
+}
+
+.Card_Technologies_CradPara {
+  margin-top: 20px;
+  line-height: 1.9;
+}
+
+.icon_Container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.icon_Sub_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon_Sub_Container_icon {
+  width: 90px;
+  height: 90px;
+  /* color: #808080; */
+}
+
+/* Technologis crad end*/
+
+/* solution work start */
+
+.solution_container {
+  padding-left: 70px;
+  padding-bottom: 80px;
+}
+
+.solution_word {
+  color: var(--orange);
+  letter-spacing: 12px;
+  font-size: 18px;
+  font-family: "Poppins Medium";
+}
+
+.solution_heading {
+  font-size: 42px;
+}
+
+.solution_paragraph {
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Poppins Light";
+}
+
+/* solution work end */
+
+/* discuss work start */
+
+.discuss_section {
+  padding-bottom: 100px;
+}
+
+.discuss_container {
+  background-color: purple;
+  margin: 0px 65px;
+  height: 240px;
+  border-radius: 16px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  font-family: "Poppins Medium";
+  color: #ffffff;
+}
+
+.discuss_heading{
+  font-size: 35px;
+}
+
+.discuss_paragraph{
+  width: 90%;
+  font-size: 20px;
+}
+
+/* discuss work end */

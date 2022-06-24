@@ -1,0 +1,153 @@
+@import url(//db.onlinewebfonts.com/c/0c28006f19928dfd146027cfd7024ca0?family=Poppins+Medium);
+@import url(//db.onlinewebfonts.com/c/2e6cd8faed5d485da4baf7f2a3202a04?family=Poppins+Light);
+/* font-family: "Poppins Medium"; */
+
+:root {
+  --blue: #1576d8;
+  --white: #ffffff;
+  --grey: #808080;
+  --orange: #ff9100;
+}
+
+.ConsultingServices_paragraph_container {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-left: 60px;
+  background-color: rgba(0, 0, 0, 0.027451);
+}
+
+.ConsultingServices_leftparagraph_heading {
+  color: var(--orange);
+  letter-spacing: 12px;
+  font-size: 18px;
+  font-family: "Poppins Medium";
+}
+
+.ConsultingServices_leftparagraph_para {
+  width: 90%;
+  font-size: 43px;
+}
+
+.ConsultingServices_Rightparagraph {
+  border-left: 1px solid var(--grey);
+}
+
+.ConsultingServices_Rightparagraph_paragraph {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 85%;
+  font-family: "Poppins Light";
+}
+
+/* {ConsultingServices card start} */
+
+.ConsultingServices_card_Map_container {
+  background-color: rgba(0, 0, 0, 0.027451);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.CardCousultingservices_card_heading {
+  margin-top: 20px;
+}
+
+.CardCousultingservices_card_paragraph {
+  margin-top: 30px;
+}
+
+.CardCousultingservices_cradIcon {
+  width: 65px;
+  height: 65px;
+  color: #1576d8;
+}
+
+.CardCousultingservices_ShareIcon_para {
+  margin-top: 22px;
+}
+
+.CardCousultingservices_ShareIcon {
+  margin-left: 245px;
+  width: 35px;
+  height: 35px;
+}
+/* {ConsultingServices card end} */
+
+/* most trusted  software  since 2008 right work */
+.mosttrusted_container {
+  margin: 100px 0px;
+  /* margin-right: 20px; */
+
+  /* padding-left: 60px; */
+}
+/* this is row */
+.mosttrusted_Sub_container {
+  margin: 0px 60px;
+}
+
+.mosttrusted_leftDiv_who {
+  color: var(--orange);
+  letter-spacing: 20px;
+  font-size: 18px;
+  font-family: "Poppins Medium";
+}
+
+.mosttrusted_leftDiv_hedding {
+  font-size: 40px;
+}
+
+.mosttrusted_leftDiv_paragragh {
+  font-family: "Poppins Light";
+}
+
+.mosttrusted_leftDiv_button {
+  font-family: "Poppins Medium";
+  margin-top: 30px;
+  height: 65px;
+  width: 270px;
+  color: var(--white);
+  border: 2px solid var(--white);
+  background-color: var(--blue);
+}
+
+/* mosttrusted rightwork */
+.mosttrusted_rightDiv {
+  border: 10px solid black;
+}
+
+.mosttrusted_rightDiv_box{
+  border: 10px solid black;
+}
+
+.mosttrusted_rightDiv_box_rowOne {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #808080;
+  /* background-color: #1576d8; */
+}
+
+.mosttrusted_rightDiv_box_rowOne_paraOne{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   background-color: #ff9100;
+}
+
+.mosttrusted_rightDiv_box_rowOne_paraTwo{
+  width: 50%;
+  background-color: #808080;
+  display: flex;
+  flex-direction: column;
+}
+
+.mosttrusted_rightDiv_box_rowOne_paraTwo_abbr{
+  font-size: 35px;
+}
+
+.img_dedicatedDevelopers {
+  background-color: aqua;
+  width: 100%;
+  /* height: 150px; */
+}

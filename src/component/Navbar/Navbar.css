@@ -1,0 +1,73 @@
+@import url(//db.onlinewebfonts.com/c/0c28006f19928dfd146027cfd7024ca0?family=Poppins+Medium);
+
+/* rgb(65,88,208) 100%) */
+
+:root {
+  --blue: #1576d8;
+  --white: #ffffff;
+}
+
+li{
+    list-style-type: none;
+}
+
+.navbar_allwork_container {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    background-color: var(--white);
+    box-shadow: -1px 3px 5px 0px rgba(71,59,59,0.75);
+    z-index: 2;
+}
+
+.navbar_container {
+  font-family: "Poppins Medium";
+  font-weight: 2000px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  height: 105px;
+  align-items: center;
+}
+
+.navbarlogo {
+  height: 80px;
+}
+
+.navbar_rightdiv {
+  height: 80px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+#navbar_button {
+  height: 50px;
+  width: 200px;
+  margin-bottom: 10px;
+  color: var(--white);
+  border: 2px solid var(--white);
+  background-color: var(--blue) ;
+}
+
+
+/* services Dropdown */
+.navbar_services_container {
+   display: flex;
+   justify-content: space-around;
+} 
+
+/* hireDeveloper dropdown */
+.navbar_hireDeveloper_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* solution Dropdown */
+.navbar_solution_container {
+  display: flex;
+  justify-content: space-around;
+}
