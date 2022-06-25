@@ -6,7 +6,7 @@ import { GrShare } from "react-icons/gr";
 const CardCousultingservices = () => {
   return (
     <div>
-      <Card style={{ width: "20rem", height: "22rem" , borderRadius:"16px" }}>
+      <Card style={{ width: "22rem", height: "30rem" , borderRadius:"16px" , paddingTop :"10px" }}>
         <Card.Body>
           <p className="CardCousultingservices_cradIcon_para">
             <FaMobileAlt className="CardCousultingservices_cradIcon" />

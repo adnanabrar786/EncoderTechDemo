@@ -7,8 +7,8 @@ const CardTechnologies = () => {
     <div>
       <Card
         style={{
-          width: "43.5rem",
-          height: "22rem",
+          width: "48rem",
+          height: "27rem",
           borderRadius: "16px",
         }}
       >

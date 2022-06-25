@@ -72,14 +72,13 @@ const ConsultingServices = () => {
             <p className="mosttrusted_leftDiv_hedding">
               Most <b>Trusted</b> Software Development Company <b>Since 2008</b>
             </p>
-            <div className="mosttrusted_leftDiv_paragragh">
-              <p>
-                WHO WE ARE Most Trusted Software Development Company Since 2008
+            <div className="mosttrusted_leftDiv_paragraghDiv">
+              <p className="mosttrusted_leftDiv_paragragh_p">
                 Being one of the best IT consulting companies in the US market,
                 we have delivered IT solutions at a global level by leveraging
                 the full potential of the latest disruptive technologies.
               </p>
-              <p>
+              <p className="mosttrusted_leftDiv_paragragh_p">
                 We are purists in cognitive computing, hyper-automation, and
                 analytics to help enterprises reimagine their businesses for the
                 digital age. Our technical prowess accelerates your enterprise
@@ -88,7 +87,7 @@ const ConsultingServices = () => {
                 deliver exceptional customer service.
               </p>
 
-              <p>
+              <p className="mosttrusted_leftDiv_paragragh_p">
                 Our agile hiring models and relentless focus on customer delight
                 have garnered the trust as the best software development company
                 to outsource offshore IT Consulting services.
@@ -104,17 +103,25 @@ const ConsultingServices = () => {
           </div>
 
           {/* most trusted  software  since 2008 right work */}
-          <div className="mosttrusted_rightDiv col-7">
-            <div className="mosttrusted_rightDiv_box">
-              <div className="mosttrusted_rightDiv_box_rowOne">
-                <p className="mosttrusted_rightDiv_box_rowOne_paraOne">
-                  <abbr>1800 +</abbr> <span>Projects Launched</span>
-                </p>
-                <p className="mosttrusted_rightDiv_box_rowOne_paraTwo">
-                  <abbr className="mosttrusted_rightDiv_box_rowOne_paraTwo_abbr">13 +</abbr> <span>Years of Experience</span>
-                </p>
+          <div className="col-7">
+            <div className="mostTrusted_Rightbox">
+              {/* row_one */}
+              <div className="mostTrusted_Rightbox_RowOneDiv">
+                <div className="mostTrusted_Rightbox_RowOneSubDivOne">
+                  <h1>1800 +</h1>
+                  <h3 className="mostTrusted_Rightbox_RowOneSubDivOne_h3">
+                    Projects Launched
+                  </h3>
+                </div>
+                <div className="mostTrusted_Rightbox_RowOneSubDivTwo">
+                  <h1>13 +</h1>
+                  <h3 className="mostTrusted_Rightbox_RowOneSubDivOne_h3">
+                    Years of Experience
+                  </h3>
+                </div>
               </div>
-              <div className="mosttrusted_rightDiv_box_rowTwo">
+              {/* row_two */}
+              <div className="mostTrusted_Rightbox_RowTwoDiv">
                 <img
                   src="https://theninehertz.com/wp-content/themes/ninehertz/assets-2022/img/home/jpg/dedicated-developers.jpg"
                   alt="dedicatedDevelopers"
@@ -122,29 +129,45 @@ const ConsultingServices = () => {
                 />
               </div>
 
-              <div className="mosttrusted_rightDiv_box_rowThree">
-                {/* <p>
-                  <abbr>1800 +</abbr> <span>Projects Launched</span>
-                </p>
-                <p>
-                  <abbr>13 +</abbr> <span>Years of Experience</span>
-                </p> */}
+              {/* row_three */}
+              <div className="mostTrusted_Rightbox_RowOneDiv">
+                <div className="mostTrusted_Rightbox_RowOneSubDivOne">
+                  <h1>575 +</h1>
+                  <h3 className="mostTrusted_Rightbox_RowOneSubDivOne_h3">
+                    Dedicated Developers
+                  </h3>
+                </div>
+                <div className="mostTrusted_Rightbox_RowOneSubDivTwo">
+                  <h1>92%</h1>
+                  <h3 className="mostTrusted_Rightbox_RowOneSubDivOne_h3">
+                    Client Retention
+                  </h3>
+                </div>
               </div>
             </div>
-            <div>
-              <p>
-                if you have questions or need help, feel free to contact with
-                our team, or call <b>+1-315-381-4100</b>
-              </p>
-              <button className="Talkexpert_button">
-                TALK TO OUR EXPERTS
-                <i
-                  class="bi bi-arrow-up-right"
-                  style={{ paddingLeft: "5px" }}
-                ></i>
-              </button>
+
+            <div className="mostTrusted_Rightbox_BottomWork">
+              <div>
+                <p className="mostTrusted_Rightbox_BottomWork_p">
+                  if you have questions or need help, feel free to contact with
+                  our team, or call
+                </p>
+                <h3 className="mostTrusted_Rightbox_BottomWork_h3">
+                  +92139875433
+                </h3>
+              </div>
+              <div>
+                <button className="mostTrusted_Rightbutton">
+                  CONTACT US
+                  <i
+                    class="bi bi-arrow-up-right"
+                    style={{ paddingLeft: "15px" }}
+                  ></i>
+                </button>
+              </div>
             </div>
           </div>
+
           {/* Most Trusted Software Development Company Since 2008  SECTION end*/}
         </div>
       </div>

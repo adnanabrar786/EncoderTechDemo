@@ -12,7 +12,7 @@
 .ConsultingServices_paragraph_container {
   margin-top: 100px;
   padding-top: 100px;
-  padding-left: 60px;
+  padding-left: 80px;
   background-color: rgba(0, 0, 0, 0.027451);
 }
 
@@ -46,21 +46,23 @@
   background-color: rgba(0, 0, 0, 0.027451);
   display: flex;
   justify-content: space-evenly;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .CardCousultingservices_card_heading {
-  margin-top: 20px;
+  margin-top: 30px;
+  font-size: 28px;
 }
 
 .CardCousultingservices_card_paragraph {
   margin-top: 30px;
+  font-size: 20px;
 }
 
 .CardCousultingservices_cradIcon {
-  width: 65px;
-  height: 65px;
+  width: 75px;
+  height: 70px;
   color: #1576d8;
 }
 
@@ -69,19 +71,18 @@
 }
 
 .CardCousultingservices_ShareIcon {
-  margin-left: 245px;
-  width: 35px;
-  height: 35px;
+  margin-left: 265px;
+  width: 42px;
+  height: 42px;
 }
+
 /* {ConsultingServices card end} */
 
 /* most trusted  software  since 2008 right work */
 .mosttrusted_container {
   margin: 100px 0px;
-  /* margin-right: 20px; */
-
-  /* padding-left: 60px; */
 }
+
 /* this is row */
 .mosttrusted_Sub_container {
   margin: 0px 60px;
@@ -95,11 +96,20 @@
 }
 
 .mosttrusted_leftDiv_hedding {
-  font-size: 40px;
+  font-size: 38px;
+  width: 85%;
+  margin-bottom: 40px;
 }
 
-.mosttrusted_leftDiv_paragragh {
+.mosttrusted_leftDiv_paragraghDiv {
   font-family: "Poppins Light";
+  line-height: 1.8em;
+  font-size: 21px;
+  width: 95%;
+}
+
+.mosttrusted_leftDiv_paragragh_p{
+  margin-bottom: 25px;
 }
 
 .mosttrusted_leftDiv_button {
@@ -113,41 +123,71 @@
 }
 
 /* mosttrusted rightwork */
-.mosttrusted_rightDiv {
-  border: 10px solid black;
-}
 
-.mosttrusted_rightDiv_box{
-  border: 10px solid black;
+.mostTrusted_Rightbox{
+  background-color: rgba(0,0,0,.027451);
 }
-
-.mosttrusted_rightDiv_box_rowOne {
-  display: flex;
-  justify-content: space-evenly;
-  border: 2px solid #808080;
-  /* background-color: #1576d8; */
-}
-
-.mosttrusted_rightDiv_box_rowOne_paraOne{
+/* row One */
+.mostTrusted_Rightbox_RowOneDiv{
    display: flex;
-   flex-direction: column;
-   width: 50%;
-   background-color: #ff9100;
+   border: 2px solid #808080;
+   height: 150px;
 }
 
-.mosttrusted_rightDiv_box_rowOne_paraTwo{
+.mostTrusted_Rightbox_RowOneSubDivOne{
   width: 50%;
-  background-color: #808080;
-  display: flex;
-  flex-direction: column;
+  padding-top: 25px;
+  padding-left: 30px;
 }
 
-.mosttrusted_rightDiv_box_rowOne_paraTwo_abbr{
-  font-size: 35px;
+
+.mostTrusted_Rightbox_RowOneSubDivOne_h3{
+   color: var(--blue);
+}
+
+.mostTrusted_Rightbox_RowOneSubDivTwo{
+  border-left: 1px solid  #808080;
+  padding-top: 25px;
+  padding-left: 30px;
+  width: 50%;
+}
+
+
+.mostTrusted_Rightbox_RowTwoDiv{
+  border: 2px solid #808080;
+  height: 310px
 }
 
 .img_dedicatedDevelopers {
   background-color: aqua;
   width: 100%;
-  /* height: 150px; */
+  height: 305px
+}
+
+/* mostTrusted_Rightbox_BOTTOMwORK */
+
+.mostTrusted_Rightbox_BottomWork{
+ display: flex;
+ margin-top: 60px;
+}
+
+.mostTrusted_Rightbox_BottomWork_p{
+  font-family: "Poppins Light";
+  font-size: 22px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.mostTrusted_Rightbox_BottomWork_h3{
+  color: var(--blue);
+}
+
+.mostTrusted_Rightbutton{
+  margin-right: 20px;
+  font-family: "Poppins Medium";
+  height: 70px;
+  width: 200px;
+  color: var(--white);
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
 }
