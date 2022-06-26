@@ -1,4 +1,5 @@
 import React from "react";
+import CardSolution from "./CardSolution";
 import CardTechnologies from "./CardTechnologies";
 import "./Technologies.css";
 
@@ -50,7 +51,7 @@ const Technologis = () => {
       </div>
 
       {/* solution work start */}
-
+      {/* solution left work */}
       <section>
         <div className="solution_container row">
           <div className="col-6">
@@ -74,35 +75,78 @@ const Technologis = () => {
               ></i>
             </button>
           </div>
-          <div className="col-6"></div>
+          {/* solution right work */}
+          <div className="col-6">
+            <div className="cardsolution_map_container">
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div >
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            <div className="cardsolution_map_Sub_container">
+              <CardSolution />
+            </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* discuss your project  start */}
-
-      <section className="discuss_section">
-        <div className="discuss_container">
-          <div>
-            <h3 className="discuss_heading">Let's Discuss Your Project</h3>
-            <p className="discuss_paragraph">
-              Get free consultation and let us know your project idea to trun it
-              into an amazing digital product.
-            </p>
-          </div>
-          <div>
-            <button className="Talkexpert_button">
-              TALK TO OUR EXPERTS
-              <i
-                class="bi bi-arrow-up-right"
-                style={{ paddingLeft: "5px" }}
-              ></i>
-            </button>
-          </div>
-          
-        </div>
-      </section>
-
-      {/* discuss your project  end */}
+     
     </div>
   );
 };

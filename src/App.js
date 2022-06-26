@@ -7,6 +7,7 @@ import Talkexpert from "./component/Talkexpert/Talkexpert";
 import ConsultingServices from "./component/ConsultingServices/ConsultingServices";
 import Technologis from "./component/Technologies/Technologis";
 import Footer from "./component/Footer/Footer";
+import LatestWork from "./component/LatestWork/LatestWork";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Talkexpert />
       <ConsultingServices />
       <Technologis/>
-      <Footer/>
+      <LatestWork/>
     </div>
   );
 }

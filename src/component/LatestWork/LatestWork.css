@@ -1,0 +1,185 @@
+:root {
+  --blue: #1576d8;
+  --white: #ffffff;
+  --grey: #808080;
+  --orange: #ff9100;
+}
+
+
+.LatestWork_container {
+  margin-bottom: 100px;
+}
+
+/* discuss work start */
+
+.discuss_section {
+  padding-bottom: 100px;
+}
+
+.discuss_container {
+  background-color: purple;
+  margin: 0px 80px;
+  padding: 0px 80px;
+  height: 240px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins Medium";
+  color: #ffffff;
+}
+
+/* discuss work end */
+
+/* latest work start */
+
+.latestWork_main {
+  margin: 0px 80px;
+}
+
+.LatestWork_word {
+  color: var(--orange);
+  letter-spacing: 12px;
+  font-size: 17px;
+  font-family: "Poppins Medium";
+}
+
+.LatestWork_heading {
+  font-size: 38px;
+}
+
+.LatestWork_paragraph {
+  margin-top: 20px;
+  font-size: 19px;
+  width: 95%;
+  line-height: 1.6em;
+  font-family: "Poppins Light";
+}
+
+.LatestWork_button {
+  font-family: "Poppins Medium";
+  margin-top: 30px;
+  height: 70px;
+  width: 230px;
+  color: var(--white);
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+}
+
+.LatestWork_leftbox {
+  margin-top: 40px;
+  background-color: aqua;
+  width: 95%;
+  height: 450px;
+}
+
+/* latest work end */
+
+/* industry start */
+
+.industry_container {
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.industry_Leftparagraph {
+  width: 46%;
+}
+
+.industry_leftparagraph_heading {
+  color: var(--orange);
+  letter-spacing: 12px;
+  font-size: 18px;
+  font-family: "Poppins Medium";
+}
+
+.industry_leftparagraph_para {
+  width: 80%;
+  font-size: 40px;
+}
+
+.industry_Rightparagraph {
+  border-left: 1px solid var(--grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.industry_Rightparagraph_paragraph {
+  font-size: 20px;
+  width: 85%;
+  font-family: "Poppins Light";
+}
+
+
+/* industry end */
+
+
+/* CardIndustry start */
+
+.CardIndustry_map_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.CardIndustry_map_Sub_container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.CardIndustry_iconDiv {
+  text-align: center;
+}
+
+.CardIndustry_icon {
+  width: 120px;
+  height: 120px;
+  color: green;
+}
+
+
+/* CardIndustry end */
+
+
+/* ARCHIEVEMENTS WORK START */
+
+.ARCHIEVEMENT_Container{
+  margin-top: 80px;
+}
+
+.ARCHIEVEMENT_LEFT_DIV {
+  background-color: var(--blue);
+  border-top-right-radius: 40px ;
+  border-bottom-right-radius: 40px ;
+
+    height: 800px;
+  text-align: center;
+}
+
+.ARCHIEVEMENT_LEFT_DIV_heading {
+  padding-top: 40px;
+  color: var(--white);
+  font-size: 43px;
+}
+
+.ARCHIEVEMENT_LEFT_DIV_video {
+  margin:0px 100px ;
+  margin-top: 60px;
+  background-color: #ff9100;
+  height: 320px;
+}
+
+.ARCHIEVEMENT_LEFT_button {
+  font-family: "Poppins Medium";
+  margin-top: 60px;
+  height: 60px;
+  width: 230px;
+  color: var(--blue);
+  border: 2px solid var(--white);
+  background-color: var(--white);
+}
+
+
+
+/* ARCHIEVEMENTS WORK end */
