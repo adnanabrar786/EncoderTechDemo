@@ -53,12 +53,12 @@
 
 .Card_Technologies_ParagraphWork {
   display: flex;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .Card_Technologies_cradlogo {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   color: #808080;
 }
 
@@ -68,11 +68,11 @@
 }
 
 .Card_Technologies_CaradHeading {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .Card_Technologies_CradPara {
-  font-size: 20px;
+  font-size: 17px;
   margin-top: 20px;
   line-height: 1.9;
 }
@@ -80,7 +80,7 @@
 .icon_Container {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .icon_Sub_Container {
@@ -90,9 +90,8 @@
 }
 
 .icon_Sub_Container_icon {
-  width: 90px;
-  height: 90px;
-  /* color: #808080; */
+  width: 70px;
+  height: 70px;
 }
 
 /* Technologis crad end*/

@@ -1,6 +1,14 @@
 import React from "react";
 import CardIndustry from "./CardIndustry";
 import "./LatestWork.css";
+import ReactPlayer from "react-player";
+import CardTruestedBy from "./CardTruestedBy";
+import { SiUpwork } from "react-icons/si";
+
+// Latest work
+// industry we serve or services
+// ARCHIEVEMENTS
+// TrustedBy section
 
 const LatestWork = () => {
   return (
@@ -37,7 +45,7 @@ const LatestWork = () => {
             <div className="col-6">
               <p className="LatestWork_word">LATEST WORK</p>
               <p className="LatestWork_heading">
-                Our <b>Notable</b> Offshore Software Development{" "}
+                Our <b>Notable</b> Offshore Software Development
                 <b>Case Studies</b>
               </p>
               <p className="LatestWork_paragraph">
@@ -55,11 +63,35 @@ const LatestWork = () => {
                   style={{ paddingLeft: "10px" }}
                 ></i>
               </button>
-              <div className="LatestWork_leftbox"></div>
+              <div className="LatestWork_leftbox">
+                <ReactPlayer
+                  className="LatestWork_leftbox_video"
+                  width="100%"
+                  height="450px"
+                  url="https://youtu.be/AuVHftBiDVw"
+                  controls
+                />
+              </div>
             </div>
             <div className="col-6">
-              <div className="LatestWork_leftbox"></div>
-              <div className="LatestWork_leftbox"></div>
+              <div className="LatestWork_leftbox">
+                <ReactPlayer
+                  className="LatestWork_leftbox_video"
+                  width="100%"
+                  height="450px"
+                  url="https://youtu.be/AuVHftBiDVw"
+                  controls
+                />
+              </div>
+              <div className="LatestWork_leftbox">
+                <ReactPlayer
+                  className="LatestWork_leftbox_video"
+                  width="100%"
+                  height="450px"
+                  url="https://youtu.be/AuVHftBiDVw"
+                  controls
+                />
+              </div>
             </div>
           </main>
         </section>
@@ -72,7 +104,7 @@ const LatestWork = () => {
             <div className="industry_Leftparagraph col-6">
               <p className="industry_leftparagraph_heading">SERVICES</p>
               <p className="industry_leftparagraph_para">
-                Best <b>IT Consulting</b> Company Across Different{" "}
+                Best <b>IT Consulting</b> Company Across Different
                 <b>Industry</b> Verticals
               </p>
             </div>
@@ -117,22 +149,131 @@ const LatestWork = () => {
                 Interested To <b>Develop</b> Your Own <b>App/Web?</b> Take A
                 Glance
               </p>
-              <div className="ARCHIEVEMENT_LEFT_DIV_video">video</div>
-              <div className="ARCHIEVEMENT_LEFT_button_div">
-                <button className="ARCHIEVEMENT_LEFT_button">
-                  TALK TO OUR EXPERTS
-                  <i
-                    class="bi bi-arrow-up-right"
-                    style={{ paddingLeft: "5px" }}
-                  ></i>
-                </button>
+              <ReactPlayer
+                width="80%"
+                height="320px"
+                url="https://youtu.be/AuVHftBiDVw"
+                controls
+              />
+              <button className="ARCHIEVEMENT_LEFT_button">
+                TALK TO OUR EXPERTS
+                <i
+                  class="bi bi-arrow-up-right"
+                  style={{ paddingLeft: "5px" }}
+                ></i>
+              </button>
+            </div>
+            <div className="ARCHIEVEMENT_rightwork_container col-6">
+              <div>
+                <p className="ARCHIEVEMENT_rightwork_word">ARCHIEVEMENTS</p>
+                <p className="ARCHIEVEMENT_rightwork_heading">
+                  <b>Award-Winning</b> Outsourcing IT Company
+                </p>
+                <p className="ARCHIEVEMENT_rightwork_paragraph">
+                  We are proud to showcase our awards and accolades in the IT
+                  industry for software development. Our accomplishments are
+                  proof of our excellent services and innovative solutions.
+                </p>
+              </div>
+
+              <div className="ARCHIEVEMENT_rightwork_logodiv">
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
+                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                </div>
               </div>
             </div>
-            <div className="col-6"></div>
           </main>
         </section>
 
         {/* ARCHIEVEMENTS WORK END */}
+
+        {/* TrustedBy start */}
+        <section className="TrustedBy_section">
+          {/* ConsultingServices top paragraph start */}
+          <div className="TrustedBy_container row">
+            <div className="col-6">
+              <p className="TrustedBy_leftparagraph_heading">TRUSTED BY</p>
+              <p className="TrustedBy_leftparagraph_para">
+                <b> Global Leaders </b> For Custom Software Development
+              </p>
+            </div>
+            <div className="TrustedBy_Rightparagraph col-6">
+              <p className="TrustedBy_Rightparagraph_paragraph">
+                Global Leaders Trust Us as their IT Services Company From
+                startups to large-scale enterprises, we have helped our clients
+                generate more sales with sustainable software solutions. As an
+                eminent offshore software development company, clients across
+                the globe trust us with their software development projects.
+              </p>
+            </div>
+          </div>
+          {/* ConsultingServices top paragraph end */}
+          {/* TrustedBy card start */}
+          <div className="TrustedBy_map_container">
+            <div className="TrustedBy_map_Sub_container">
+              <CardTruestedBy />
+              <CardTruestedBy />
+              <CardTruestedBy />
+              <CardTruestedBy />
+              <CardTruestedBy />
+            </div>
+            <div className="TrustedBy_map_Sub_container">
+              <CardTruestedBy />
+              <CardTruestedBy />
+              <CardTruestedBy />
+              <CardTruestedBy />
+              <CardTruestedBy />
+            </div>
+          </div>
+          {/* TrustedBy card end */}
+          <div className="TrustedBy_button_div">
+            <button className="TrustedBy_button">
+              GET FREE CONSULTATION
+              <i
+                class="bi bi-arrow-up-right"
+                style={{ paddingLeft: "5px" }}
+              ></i>
+            </button>
+          </div>
+        </section>
+
+        {/* TrustedBy end */}
       </div>
     </div>
   );

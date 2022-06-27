@@ -8,6 +8,7 @@ import ConsultingServices from "./component/ConsultingServices/ConsultingService
 import Technologis from "./component/Technologies/Technologis";
 import Footer from "./component/Footer/Footer";
 import LatestWork from "./component/LatestWork/LatestWork";
+import ClientSay from "./component/ClientSay.jsx/ClientSay";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ConsultingServices />
       <Technologis/>
       <LatestWork/>
+      <ClientSay/>
     </div>
   );
 }

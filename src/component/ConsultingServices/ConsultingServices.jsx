@@ -1,7 +1,9 @@
 import React from "react";
 import CardCousultingservices from "./CardCousultingservices";
 import "./ConsultingServices.css";
-// import dedicatedDevelopers from "./images/dedicatedDevelopers.webp";
+
+
+// ConsultingServices and MostTrusted  Section
 
 const ConsultingServices = () => {
   return (
@@ -29,7 +31,7 @@ const ConsultingServices = () => {
 
       <div className="ConsultingServices_card_Map_container">
         <div>
-          <CardCousultingservices />
+          <CardCousultingservices  />
         </div>
         <div>
           <CardCousultingservices />

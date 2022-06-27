@@ -3,6 +3,10 @@ import CardSolution from "./CardSolution";
 import CardTechnologies from "./CardTechnologies";
 import "./Technologies.css";
 
+
+// Technologis
+// Solution section
+
 const Technologis = () => {
   return (
     <div>
