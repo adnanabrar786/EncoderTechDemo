@@ -2,7 +2,6 @@ import React from "react";
 import CardCousultingservices from "./CardCousultingservices";
 import "./ConsultingServices.css";
 
-
 // ConsultingServices and MostTrusted  Section
 
 const ConsultingServices = () => {
@@ -31,7 +30,7 @@ const ConsultingServices = () => {
 
       <div className="ConsultingServices_card_Map_container">
         <div>
-          <CardCousultingservices  />
+          <CardCousultingservices />
         </div>
         <div>
           <CardCousultingservices />
@@ -110,16 +109,20 @@ const ConsultingServices = () => {
               {/* row_one */}
               <div className="mostTrusted_Rightbox_RowOneDiv">
                 <div className="mostTrusted_Rightbox_RowOneSubDivOne">
-                  <h1>1800 +</h1>
-                  <h3 className="mostTrusted_Rightbox_RowOneSubDivOne_h3">
+                  <h1>
+                    <b>1800 +</b>
+                  </h1>
+                  <p className="mostTrusted_Rightbox_RowOneSubDivOne_p">
                     Projects Launched
-                  </h3>
+                  </p>
                 </div>
                 <div className="mostTrusted_Rightbox_RowOneSubDivTwo">
-                  <h1>13 +</h1>
-                  <h3 className="mostTrusted_Rightbox_RowOneSubDivOne_h3">
+                  <h1>
+                    <b>13 +</b>
+                  </h1>
+                  <p className="mostTrusted_Rightbox_RowOneSubDivOne_p">
                     Years of Experience
-                  </h3>
+                  </p>
                 </div>
               </div>
               {/* row_two */}
@@ -134,16 +137,20 @@ const ConsultingServices = () => {
               {/* row_three */}
               <div className="mostTrusted_Rightbox_RowOneDiv">
                 <div className="mostTrusted_Rightbox_RowOneSubDivOne">
-                  <h1>575 +</h1>
-                  <h3 className="mostTrusted_Rightbox_RowOneSubDivOne_h3">
-                    Dedicated Developers
-                  </h3>
+                  <h1>
+                    <b>1800 +</b>
+                  </h1>
+                  <p className="mostTrusted_Rightbox_RowOneSubDivOne_p">
+                    Projects Launched
+                  </p>
                 </div>
                 <div className="mostTrusted_Rightbox_RowOneSubDivTwo">
-                  <h1>92%</h1>
-                  <h3 className="mostTrusted_Rightbox_RowOneSubDivOne_h3">
-                    Client Retention
-                  </h3>
+                  <h1>
+                    <b>13 +</b>
+                  </h1>
+                  <p className="mostTrusted_Rightbox_RowOneSubDivOne_p">
+                    Years of Experience
+                  </p>
                 </div>
               </div>
             </div>
@@ -152,11 +159,8 @@ const ConsultingServices = () => {
               <div>
                 <p className="mostTrusted_Rightbox_BottomWork_p">
                   if you have questions or need help, feel free to contact with
-                  our team, or call
+                  our team, or call <span className="mostTrusted_Rightbox_BottomWork_span"><b>+92139875433</b></span>
                 </p>
-                <h3 className="mostTrusted_Rightbox_BottomWork_h3">
-                  +92139875433
-                </h3>
               </div>
               <div>
                 <button className="mostTrusted_Rightbutton">

@@ -50,16 +50,14 @@
   padding-bottom: 50px;
 }
 
-/* .card_container:hover{
-   background-color: var(--blue);
-   color: var(--white);
-} */
-
+.CardCousultingservices_card_container:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
 
 .CardCousultingservices_cradIcon {
-  width: 70px;
-  height: 65px;
-  color: #1576d8;
+  width: 60px;
+  height: 50px;
 }
 
 .CardCousultingservices_card_heading {
@@ -72,12 +70,8 @@
   font-size: 18px;
 }
 
-
-.CardCousultingservices_ShareIcon_para {
-  margin-left: 230px;
-}
-
 .CardCousultingservices_ShareIcon {
+  margin-left: 230px;
   width: 31px;
   height: 31px;
 }
@@ -86,7 +80,7 @@
 
 /* most trusted  software  since 2008 right work */
 .mosttrusted_container {
-  margin: 100px 0px;
+ margin-top: 100px;
 }
 
 /* this is row */
@@ -97,12 +91,12 @@
 .mosttrusted_leftDiv_who {
   color: var(--orange);
   letter-spacing: 20px;
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Poppins Medium";
 }
 
 .mosttrusted_leftDiv_hedding {
-  font-size: 38px;
+  font-size: 35px;
   width: 85%;
   margin-bottom: 40px;
 }
@@ -110,12 +104,12 @@
 .mosttrusted_leftDiv_paragraghDiv {
   font-family: "Poppins Light";
   line-height: 1.8em;
-  font-size: 21px;
   width: 95%;
 }
 
-.mosttrusted_leftDiv_paragragh_p{
+.mosttrusted_leftDiv_paragragh_p {
   margin-bottom: 25px;
+  font-size: 18px;
 }
 
 .mosttrusted_leftDiv_button {
@@ -130,69 +124,70 @@
 
 /* mosttrusted rightwork */
 
-.mostTrusted_Rightbox{
-  background-color: rgba(0,0,0,.027451);
+.mostTrusted_Rightbox {
+  background-color: rgba(0, 0, 0, 0.027451);
 }
 /* row One */
-.mostTrusted_Rightbox_RowOneDiv{
-   display: flex;
-   border: 2px solid #808080;
-   height: 150px;
+.mostTrusted_Rightbox_RowOneDiv {
+  display: flex;
+  border: 1px solid #D3D3D3;
+  height: 120px;
 }
 
-.mostTrusted_Rightbox_RowOneSubDivOne{
+.mostTrusted_Rightbox_RowOneSubDivOne {
   width: 50%;
-  padding-top: 25px;
-  padding-left: 30px;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
-
-.mostTrusted_Rightbox_RowOneSubDivOne_h3{
-   color: var(--blue);
+.mostTrusted_Rightbox_RowOneSubDivOne_p {
+  color: var(--blue);
+  font-size: 20px;
 }
 
-.mostTrusted_Rightbox_RowOneSubDivTwo{
-  border-left: 1px solid  #808080;
-  padding-top: 25px;
-  padding-left: 30px;
+.mostTrusted_Rightbox_RowOneSubDivTwo {
+  border-left: 1px solid #D3D3D3;
+  padding-top: 10px;
+  padding-left: 20px;
   width: 50%;
 }
 
-
-.mostTrusted_Rightbox_RowTwoDiv{
-  border: 2px solid #808080;
-  height: 310px
+.mostTrusted_Rightbox_RowTwoDiv {
+  border: 1px solid #D3D3D3;
+  height: 250px;
 }
 
 .img_dedicatedDevelopers {
-  background-color: aqua;
   width: 100%;
-  height: 305px
+  height: 250px;
 }
 
 /* mostTrusted_Rightbox_BOTTOMwORK */
 
-.mostTrusted_Rightbox_BottomWork{
- display: flex;
- margin-top: 60px;
+.mostTrusted_Rightbox_BottomWork {
+  display: flex;
+  margin-top: 60px;
 }
 
-.mostTrusted_Rightbox_BottomWork_p{
+.mostTrusted_Rightbox_BottomWork_p {
   font-family: "Poppins Light";
-  font-size: 22px;
-  width: 80%;
+  font-size: 18px;
+  width: 95%;
   margin-bottom: 20px;
+  line-height: 2.1em;
 }
 
-.mostTrusted_Rightbox_BottomWork_h3{
+.mostTrusted_Rightbox_BottomWork_span {
   color: var(--blue);
+  font-size: 22px;
+
 }
 
-.mostTrusted_Rightbutton{
+.mostTrusted_Rightbutton {
   margin-right: 20px;
   font-family: "Poppins Medium";
-  height: 70px;
-  width: 200px;
+  height: 60px;
+  width: 170px;
   color: var(--white);
   border: 2px solid var(--blue);
   background-color: var(--blue);
