@@ -17,7 +17,7 @@
 
 .discuss_container {
   background-color: purple;
-  margin: 0px 80px;
+  margin: 0px 70px;
   padding: 0px 80px;
   height: 240px;
   border-radius: 16px;
@@ -25,6 +25,10 @@
   align-items: center;
   font-family: "Poppins Medium";
   color: #ffffff;
+}
+
+.discuss_heading{
+  margin-bottom: 15px;
 }
 
 /* discuss work end */
@@ -43,12 +47,12 @@
 }
 
 .LatestWork_heading {
-  font-size: 38px;
+  font-size: 37px;
 }
 
 .LatestWork_paragraph {
-  margin-top: 20px;
-  font-size: 19px;
+  margin-top: 15px;
+  font-size: 17px;
   width: 95%;
   line-height: 1.6em;
   font-family: "Poppins Light";
@@ -56,7 +60,7 @@
 
 .LatestWork_button {
   font-family: "Poppins Medium";
-  margin-top: 30px;
+  margin-top: 20px;
   height: 70px;
   width: 230px;
   color: var(--white);
@@ -88,13 +92,13 @@
 .industry_leftparagraph_heading {
   color: var(--orange);
   letter-spacing: 12px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Poppins Medium";
 }
 
 .industry_leftparagraph_para {
-  width: 80%;
-  font-size: 40px;
+  width: 90%;
+  font-size: 38px;
 }
 
 .industry_Rightparagraph {
@@ -105,7 +109,7 @@
 }
 
 .industry_Rightparagraph_paragraph {
-  font-size: 20px;
+  font-size: 17.5px;
   width: 85%;
   font-family: "Poppins Light";
 }
@@ -117,7 +121,7 @@
 .CardIndustry_map_container {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .CardIndustry_map_Sub_container {
@@ -125,6 +129,19 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+
+.CardIndustry_container{
+  width: 15rem;
+  height: 10rem;
+}
+
+
+.CardIndustry_container:hover{
+  border: 1px solid var(--blue);
+  box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
 
 .CardIndustry_iconDiv {
   text-align: center;
@@ -160,7 +177,7 @@
 .ARCHIEVEMENT_LEFT_DIV_heading {
   padding-top: 40px;
   color: var(--white);
-  font-size: 43px;
+  font-size: 40px;
 }
 
 /* .ARCHIEVEMENT_LEFT_DIV_video {
@@ -188,7 +205,7 @@
 .ARCHIEVEMENT_rightwork_word {
   color: var(--orange);
   letter-spacing: 12px;
-  font-size: 17px;
+  font-size: 16px;
   font-family: "Poppins Medium";
 }
 
@@ -199,7 +216,7 @@
 
 .ARCHIEVEMENT_rightwork_paragraph {
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 18px;
   width: 80%;
   line-height: 1.6em;
   font-family: "Poppins Light";

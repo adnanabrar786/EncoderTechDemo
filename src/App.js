@@ -5,6 +5,7 @@ import ConsultingServices from "./component/ConsultingServices/ConsultingService
 import Technologis from "./component/Technologies/Technologis";
 import LatestWork from "./component/LatestWork/LatestWork";
 import ClientSay from "./component/ClientSay.jsx/ClientSay";
+import "./App.css"
 
 function App() {
   return (

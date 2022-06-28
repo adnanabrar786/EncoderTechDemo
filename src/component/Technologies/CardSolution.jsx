@@ -5,11 +5,11 @@ const CardSolution = () => {
   return (
     <div>
       <div
-        class="card"
+        class="CardSolution_container card"
         style={{
-          width: "12.5rem",
-          height: "11rem",
-          borderRadius: "16px",
+          width: "13.2rem",
+          height: "9rem",
+          borderRadius: "8px",
           textAlign: "center"
         }}
       >

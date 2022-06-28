@@ -102,7 +102,9 @@ const LatestWork = () => {
         <section>
           <main className="industry_container row">
             <div className="industry_Leftparagraph col-6">
-              <p className="industry_leftparagraph_heading">SERVICES</p>
+              <p className="industry_leftparagraph_heading">
+                INDUSTRY WE SERVE
+              </p>
               <p className="industry_leftparagraph_para">
                 Best <b>IT Consulting</b> Company Across Different
                 <b>Industry</b> Verticals
@@ -123,18 +125,38 @@ const LatestWork = () => {
           {/* div  two */}
           <div className="CardIndustry_map_container">
             <div className="CardIndustry_map_Sub_container">
-              <CardIndustry />
-              <CardIndustry />
-              <CardIndustry />
-              <CardIndustry />
-              <CardIndustry />
+              <div>
+                <CardIndustry />
+              </div>
+              <div>
+                <CardIndustry />
+              </div>
+              <div>
+                <CardIndustry />
+              </div>
+              <div>
+                <CardIndustry />
+              </div>
+              <div>
+                <CardIndustry />
+              </div>
             </div>
             <div className="CardIndustry_map_Sub_container">
-              <CardIndustry />
-              <CardIndustry />
-              <CardIndustry />
-              <CardIndustry />
-              <CardIndustry />
+              <div>
+                <CardIndustry />
+              </div>
+              <div>
+                <CardIndustry />
+              </div>
+              <div>
+                <CardIndustry />
+              </div>
+              <div>
+                <CardIndustry />
+              </div>
+              <div>
+                <CardIndustry />
+              </div>
             </div>
           </div>
         </section>

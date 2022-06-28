@@ -1,18 +1,17 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
 import { FaMobileAlt } from "react-icons/fa";
 
 const CardTechnologies = () => {
   return (
     <div>
-      <Card
+      <div className="Technologis_card_container card"
         style={{
-          width: "39.5rem",
+          width: "42.5rem",
           height: "21rem",
           borderRadius: "16px",
         }}
       >
-        <Card.Body>
+        <div className="card-body">
           <div className="Card_Technologies_ParagraphWork">
             <div>
               <FaMobileAlt className="Card_Technologies_cradlogo" />
@@ -61,8 +60,8 @@ const CardTechnologies = () => {
               <p>IOS</p>
             </div>
           </div>
-        </Card.Body>
-      </Card>
+        </div>
+      </div>
     </div>
   );
 };

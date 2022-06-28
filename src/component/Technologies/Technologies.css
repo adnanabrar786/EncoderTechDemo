@@ -1,6 +1,12 @@
 @import url(//db.onlinewebfonts.com/c/0c28006f19928dfd146027cfd7024ca0?family=Poppins+Medium);
 @import url(//db.onlinewebfonts.com/c/2e6cd8faed5d485da4baf7f2a3202a04?family=Poppins+Light);
 
+:root {
+  --blue: #1576d8;
+  --white: #ffffff;
+  --grey: #808080;
+  --orange: #ff9100;
+}
 
 .Technologis_container {
   padding-bottom: 50px;
@@ -16,13 +22,13 @@
 .Technologies_leftparagraph_heading {
   color: var(--orange);
   letter-spacing: 12px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Poppins Medium";
 }
 
 .Technologies_leftparagraph_para {
-  width: 90%;
-  font-size: 43px;
+  width: 100%;
+  font-size: 35px;
 }
 
 .Technologies_Rightparagraph {
@@ -39,10 +45,15 @@
 }
 
 /* Technologis crad start*/
+
+.Technologis_card_container:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
 .Technologis_card_Map_container {
   font-family: "Poppins Medium";
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-around;
   background-color: rgba(0, 0, 0, 0.027451);
   padding-top: 50px;
   padding-bottom: 50px;
@@ -57,7 +68,6 @@
 .Card_Technologies_cradlogo {
   width: 60px;
   height: 60px;
-  color: #808080;
 }
 
 .Card_Technologies_ParagraphWork_paraDiv {
@@ -66,11 +76,11 @@
 }
 
 .Card_Technologies_CaradHeading {
-  font-size: 35px;
+  font-size: 33px;
 }
 
 .Card_Technologies_CradPara {
-  font-size: 17px;
+  font-size: 16px;
   margin-top: 20px;
   line-height: 1.9;
 }
@@ -104,20 +114,20 @@
 .solution_word {
   color: var(--orange);
   letter-spacing: 12px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Poppins Medium";
 }
 
 .solution_heading {
-  font-size: 45px;
-  /* width: 95%; */
+  width: 90%;
+  font-size: 38px;
 }
 
 .solution_paragraph {
   margin-top: 30px;
-  font-size: 22px;
+  font-size: 17px;
   width: 90%;
-  line-height: 2.1em;
+  line-height: 1.6em;
   font-family: "Poppins Light";
 }
 
@@ -126,30 +136,36 @@
 .cardsolution_map_container {
   display: flex;
   flex-wrap: wrap;
-  width: 720px;
-  height: 700px;
-  overflow-x: scroll;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 92%;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: visible;
   margin-bottom: 10px;
 }
 
 .cardsolution_map_Sub_container {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
-.CardSolution_heading {
-  margin-top: 15px;
-  font-size: 16px;
+.CardSolution_container:hover {
+  border: 1px solid var(--blue);
+  box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 .CardSolution_icon {
   color: var(--blue);
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
+}
+
+.CardSolution_heading {
+  margin-top: 10px;
+  font-size: 16px;
 }
 
 /* solution work end */
-
 
 .discuss_heading {
   font-size: 35px;
@@ -161,6 +177,3 @@
 }
 
 /* discuss work end */
-
-
-
