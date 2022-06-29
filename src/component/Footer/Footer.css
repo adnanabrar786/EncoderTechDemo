@@ -1,8 +1,143 @@
-.TopFooter_Container{
- margin: 100px 100px;
+@import url(//db.onlinewebfonts.com/c/0c28006f19928dfd146027cfd7024ca0?family=Poppins+Medium);
+
+:root {
+  --blue: #1576d8;
+  --white: #ffffff;
+  --grey: #808080;
+  --orange: #ff9100;
+  --black: #000000;
 }
 
-.TopFooter_Container_row{
+/* Top Footer start */
 
+.TopFooter_Container {
+  padding: 100px 100px;
+  font-family: "Poppins Medium";
+  background-color: var(--black);
 }
 
+.TopFooter_Container_row {
+}
+
+.TopFooter_colOne {
+  line-height: 2em;
+}
+
+.colOne_subdiv {
+  padding-top: 20px;
+}
+
+.colTwo_subdiv {
+  margin-top: 50px;
+}
+
+.TopFooter_countryName {
+  color: var(--orange);
+  font-size: 18px;
+}
+
+.TopFooter_Country_paragraph {
+  margin-top: 25px;
+  color: var(--white);
+}
+
+.TopFooter_CountryNumber {
+  color: var(--blue);
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.TopFooter_cityName {
+  font-size: 18px;
+  padding-top: 20px;
+  color: var(--white);
+}
+
+.TopFooter_City_paragraph {
+  margin-top: 10px;
+  color: var(--white);
+}
+
+.TopFooter_flaglogo {
+  width: 40px;
+  height: 40px;
+  background-color: #ff9100;
+  border-radius: 50%;
+}
+
+.TopFooter_calllogo {
+  width: 25px;
+  height: 25px;
+}
+
+/* Top Footer end */
+
+/* Bottom Footer start */
+.BottomFooter_Container {
+  padding: 0px 100px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  font-family: "Poppins Medium";
+}
+
+/* BottomFooter_rowOne */
+
+.BottomFooter_rowOne {
+}
+
+.BottomFooter_rowOne_heading {
+  color: var(--orange);
+  font-size: 18px;
+}
+
+/* BottomFooter_rowTwo */
+.BottomFooter_rowTwo {
+  padding-top: 80px;
+}
+
+.BottomFooter_rowTwo_fontSize {
+  font-size: 17px;
+}
+
+.BottomFooter_rowTwo_colOne {
+  display: flex;
+}
+
+#BottomFooter_rowTwo_iconPara_id {
+  color: #1576d8;
+}
+
+#BottomFooter_rowTwo_iconPara_id:hover {
+  color: #000000;
+}
+
+.BottomFooter_rowTwo_iconPara {
+  color: #1576d8;
+  margin-left: 30px;
+}
+
+.BottomFooter_rowTwo_iconPara:hover {
+  color: #000000;
+}
+
+.BottomFooter_rowTwo_icon {
+  margin-top: 3px;
+  margin-left: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.BottomFooter_calllogo {
+  width: 24px;
+  height: 24px;
+}
+
+.BottomFooter_button {
+  height: 65px;
+  width: 180px;
+  color: var(--white);
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+  cursor: pointer;
+}
+/* Bottom Footer end  */

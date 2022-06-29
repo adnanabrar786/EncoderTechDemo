@@ -53,11 +53,14 @@
 .Technologis_card_Map_container {
   font-family: "Poppins Medium";
   display: flex;
-  justify-content:space-around;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
   background-color: rgba(0, 0, 0, 0.027451);
   padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 10px;
+}
+
+.Technologis_card_Map_SUbcontainer{
+  margin: 20px;
 }
 
 .Card_Technologies_ParagraphWork {

@@ -1,7 +1,7 @@
 import React from "react";
 import CardSolution from "./CardSolution";
-import CardTechnologies from "./CardTechnologies";
 import "./Technologies.css";
+import CardTechnologies from "./CardTechnologies";
 
 
 // Technologis
@@ -32,24 +32,8 @@ const Technologis = () => {
         {/* Technologis top paragraph end */}
 
         {/* Technologis Card start */}
-        <div className="Technologis_card_Map_container">
-          <div>
-            <CardTechnologies />
-          </div>
-          <div>
-            <CardTechnologies />
-          </div>
-        </div>
-
-        {/* second row */}
-
-        <div className="Technologis_card_Map_container">
-          <div>
-            <CardTechnologies />
-          </div>
-          <div>
-            <CardTechnologies />
-          </div>
+        <div>
+          <CardTechnologies />
         </div>
         {/* Technologis Card end */}
       </div>
@@ -81,76 +65,10 @@ const Technologis = () => {
           </div>
           {/* solution right work */}
           <div className="col-6">
-            <div className="cardsolution_map_container">
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div >
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            <div className="cardsolution_map_Sub_container">
-              <CardSolution />
-            </div>
-            </div>
+              <CardSolution/>
           </div>
         </div>
       </section>
-
-     
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
-import CardCousultingservices from "./CardCousultingservices";
 import "./ConsultingServices.css";
+import CardConsultant from "./CardConsultant";
 
 // ConsultingServices and MostTrusted  Section
 
@@ -27,37 +27,8 @@ const ConsultingServices = () => {
       {/* ConsultingServices top paragraph end */}
 
       {/* ConsultingServices card start */}
-
-      <div className="ConsultingServices_card_Map_container">
-        <div>
-          <CardCousultingservices />
-        </div>
-        <div>
-          <CardCousultingservices />
-        </div>
-        <div>
-          <CardCousultingservices />
-        </div>
-        <div>
-          <CardCousultingservices />
-        </div>
-      </div>
-
-      {/* two */}
-
-      <div className="ConsultingServices_card_Map_container">
-        <div>
-          <CardCousultingservices />
-        </div>
-        <div>
-          <CardCousultingservices />
-        </div>
-        <div>
-          <CardCousultingservices />
-        </div>
-        <div>
-          <CardCousultingservices />
-        </div>
+      <div>
+        <CardConsultant />
       </div>
 
       {/* ConsultingServices card end */}
@@ -159,7 +130,10 @@ const ConsultingServices = () => {
               <div>
                 <p className="mostTrusted_Rightbox_BottomWork_p">
                   if you have questions or need help, feel free to contact with
-                  our team, or call <span className="mostTrusted_Rightbox_BottomWork_span"><b>+92139875433</b></span>
+                  our team, or call
+                  <span className="mostTrusted_Rightbox_BottomWork_span">
+                    <b>+92139875433</b>
+                  </span>
                 </p>
               </div>
               <div>
