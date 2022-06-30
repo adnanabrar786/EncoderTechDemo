@@ -5,7 +5,6 @@ import ReactPlayer from "react-player";
 import CardTruestedBy from "./CardTruestedBy";
 import { SiUpwork } from "react-icons/si";
 
-import { RiComputerLine } from "react-icons/ri";
 
 // discuss section
 // Latest work
