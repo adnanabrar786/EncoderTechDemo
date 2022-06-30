@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/0c28006f19928dfd146027cfd7024ca0?family=Poppins+Light);
+
 :root {
   --blue: #1576d8;
   --white: #ffffff;
@@ -16,7 +18,7 @@
 }
 
 .discuss_container {
-  background-color: #00008B;
+  background-color: #141162;
   margin: 0px 70px;
   padding: 0px 80px;
   height: 240px;
@@ -27,7 +29,7 @@
   color: #ffffff;
 }
 
-.discuss_heading{
+.discuss_heading {
   margin-bottom: 15px;
 }
 
@@ -68,13 +70,67 @@
   background-color: var(--blue);
 }
 
-.LatestWork_leftbox {
+/* LatestWork box work start */
+
+.LatestWork_box {
+  font-family: "Poppins Light";
+
   margin-top: 40px;
-  background-color: aqua;
+  background-color: var(--grey);
   width: 95%;
   height: 450px;
+
+  position: relative;
 }
 
+#LatestWork_box_boxOne {
+  background: url(./images//carracing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#LatestWork_box_boxTwo {
+  background: url(./images//Ecommerce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#LatestWork_box_boxThree {
+  background: url(./images//figma.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.LatestWork_box:hover .LatestWork_box_div {
+  height: 60%;
+}
+
+.LatestWork_box_div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 23%;
+  transition: 0.5s ease;
+
+  color: white;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.LatestWork_box_div_h5 {
+  margin-top: 25px;
+}
+
+.LatestWork_box_div_p {
+  margin-top: 25px;
+  width: 85%;
+  overflow: hidden;
+}
+
+/* LatestWork box work end  */
 
 /* latest work end */
 
@@ -118,39 +174,44 @@
 
 /* CardIndustry start */
 
-.CardIndustry_map_container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-}
 
-.CardIndustry_map_Sub_container {
+.CardIndustry_map_container {
+  padding: 0px 60px;
   margin-top: 40px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 100%;
 }
 
-
-.CardIndustry_container{
-  width: 15rem;
+.CardIndustry_container {
+  width: 13.5rem;
   height: 10rem;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.CardIndustry_container:hover{
+.CardIndustry_container:hover {
   border: 1px solid var(--blue);
   box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
-
 .CardIndustry_iconDiv {
-  text-align: center;
+
 }
 
 .CardIndustry_icon {
-  width: 120px;
-  height: 120px;
-  color: green;
+
+  width: 80px;
+  height: 80px;
+}
+
+.CardIndustry_icon_para{
+  margin-top: 10px;
+  padding-left: 5px;
 }
 
 /* CardIndustry end */
@@ -165,7 +226,7 @@
 
 .ARCHIEVEMENT_LEFT_DIV {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   text-align: center;
   background-color: var(--blue);
@@ -222,20 +283,19 @@
   font-family: "Poppins Light";
 }
 
-.ARCHIEVEMENT_rightwork_logodiv{
+.ARCHIEVEMENT_rightwork_logodiv {
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
 }
 
-.ARCHIEVEMENT_rightwork_logo_Subdiv{
+.ARCHIEVEMENT_rightwork_logo_Subdiv {
   height: 100px;
 }
 
-
-.ARCHIEVEMENT_rightwork_logo{
-   width: 160px;
-   height: 70px;
+.ARCHIEVEMENT_rightwork_logo {
+  width: 160px;
+  height: 70px;
 }
 
 /* ARCHIEVEMENTS WORK end */
@@ -245,10 +305,9 @@
 .TrustedBy_section {
   margin-top: 80px;
   margin-bottom: 100px;
-
 }
 
-.TrustedBy_container{
+.TrustedBy_container {
   margin-left: 80px;
 }
 
@@ -278,16 +337,13 @@
 
 .TrustedBy_map_container {
   display: flex;
-  flex-direction: column;
-  margin-top: 50px;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+  margin: 80px 0px;
 }
 
-.TrustedBy_map_Sub_container {
-  display: flex;
-  justify-content: center;
-}
 
-.TrustedBy_button_div{
+.TrustedBy_button_div {
   text-align: center;
 }
 
@@ -300,6 +356,5 @@
   border: 2px solid var(--blue);
   background-color: var(--blue);
 }
-
 
 /* trusted by end  */

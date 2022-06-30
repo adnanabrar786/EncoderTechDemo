@@ -1,6 +1,6 @@
 import React from "react";
-import "./ConsultingServices.css";
 import CardConsultant from "./CardConsultant";
+import "./ConsultingServices.css";
 
 // ConsultingServices and MostTrusted  Section
 
@@ -28,7 +28,7 @@ const ConsultingServices = () => {
 
       {/* ConsultingServices card start */}
       <div>
-        <CardConsultant />
+        < CardConsultant/>
       </div>
 
       {/* ConsultingServices card end */}

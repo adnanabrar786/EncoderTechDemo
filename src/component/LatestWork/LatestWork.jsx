@@ -5,6 +5,9 @@ import ReactPlayer from "react-player";
 import CardTruestedBy from "./CardTruestedBy";
 import { SiUpwork } from "react-icons/si";
 
+import { RiComputerLine } from "react-icons/ri";
+
+// discuss section
 // Latest work
 // industry we serve or services
 // ARCHIEVEMENTS
@@ -63,34 +66,49 @@ const LatestWork = () => {
                   style={{ paddingLeft: "10px" }}
                 ></i>
               </button>
-              <div className="LatestWork_leftbox">
-                <ReactPlayer
-                  className="LatestWork_leftbox_video"
-                  width="100%"
-                  height="450px"
-                  url="https://youtu.be/AuVHftBiDVw"
-                  controls
-                />
+              <div className="LatestWork_box" id="LatestWork_box_boxOne">
+                <div class="LatestWork_box_div">
+                  <h3>E-commerce</h3>
+                  <h5 className="LatestWork_box_div_h5">(web and app)</h5>
+                  <p className="LatestWork_box_div_p">
+                    Virtual trial room with augmented reality is the advancement
+                    and technological innovation in the fashion industry. “Try
+                    before you buy ” worked years ago for efficient customer
+                    engagement in outfit stores. Now the concept is gradually
+                    being replaced via virtual trial rooms which let customers
+                    try clothes virtually that
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-6">
-              <div className="LatestWork_leftbox">
-                <ReactPlayer
-                  className="LatestWork_leftbox_video"
-                  width="100%"
-                  height="450px"
-                  url="https://youtu.be/AuVHftBiDVw"
-                  controls
-                />
+              <div className="LatestWork_box" id="LatestWork_box_boxTwo">
+                <div class="LatestWork_box_div">
+                  <h3>E-commerce</h3>
+                  <h5 className="LatestWork_box_div_h5">(web and app)</h5>
+                  <p className="LatestWork_box_div_p">
+                    Virtual trial room with augmented reality is the advancement
+                    and technological innovation in the fashion industry. “Try
+                    before you buy ” worked years ago for efficient customer
+                    engagement in outfit stores. Now the concept is gradually
+                    being replaced via virtual trial rooms which let customers
+                    try clothes virtually that
+                  </p>
+                </div>
               </div>
-              <div className="LatestWork_leftbox">
-                <ReactPlayer
-                  className="LatestWork_leftbox_video"
-                  width="100%"
-                  height="450px"
-                  url="https://youtu.be/AuVHftBiDVw"
-                  controls
-                />
+              <div className="LatestWork_box" id="LatestWork_box_boxThree">
+                <div class="LatestWork_box_div">
+                  <h3>E-commerce</h3>
+                  <h5 className="LatestWork_box_div_h5">(web and app)</h5>
+                  <p className="LatestWork_box_div_p">
+                    Virtual trial room with augmented reality is the advancement
+                    and technological innovation in the fashion industry. “Try
+                    before you buy ” worked years ago for efficient customer
+                    engagement in outfit stores. Now the concept is gradually
+                    being replaced via virtual trial rooms which let customers
+                    try clothes virtually that
+                  </p>
+                </div>
               </div>
             </div>
           </main>
@@ -122,43 +140,11 @@ const LatestWork = () => {
               </p>
             </div>
           </main>
-          {/* div  two */}
-          <div className="CardIndustry_map_container">
-            <div className="CardIndustry_map_Sub_container">
-              <div>
-                <CardIndustry />
-              </div>
-              <div>
-                <CardIndustry />
-              </div>
-              <div>
-                <CardIndustry />
-              </div>
-              <div>
-                <CardIndustry />
-              </div>
-              <div>
-                <CardIndustry />
-              </div>
-            </div>
-            <div className="CardIndustry_map_Sub_container">
-              <div>
-                <CardIndustry />
-              </div>
-              <div>
-                <CardIndustry />
-              </div>
-              <div>
-                <CardIndustry />
-              </div>
-              <div>
-                <CardIndustry />
-              </div>
-              <div>
-                <CardIndustry />
-              </div>
-            </div>
-          </div>
+
+          {/* card industry or div  two  */}
+          <main>
+            <CardIndustry />
+          </main>
         </section>
 
         {/* industry we serve end */}
@@ -267,21 +253,8 @@ const LatestWork = () => {
           </div>
           {/* ConsultingServices top paragraph end */}
           {/* TrustedBy card start */}
-          <div className="TrustedBy_map_container">
-            <div className="TrustedBy_map_Sub_container">
-              <CardTruestedBy />
-              <CardTruestedBy />
-              <CardTruestedBy />
-              <CardTruestedBy />
-              <CardTruestedBy />
-            </div>
-            <div className="TrustedBy_map_Sub_container">
-              <CardTruestedBy />
-              <CardTruestedBy />
-              <CardTruestedBy />
-              <CardTruestedBy />
-              <CardTruestedBy />
-            </div>
+          <div>
+            <CardTruestedBy />
           </div>
           {/* TrustedBy card end */}
           <div className="TrustedBy_button_div">

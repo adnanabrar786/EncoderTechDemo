@@ -45,9 +45,15 @@
 .ConsultingServices_card_Map_container {
   background-color: rgba(0, 0, 0, 0.027451);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding :0px 60px;
+  padding-bottom: 80px;
+}
+
+
+.CardCousultingservices_card_container{
+  margin-top: 40px;
 }
 
 .CardCousultingservices_card_container:hover {

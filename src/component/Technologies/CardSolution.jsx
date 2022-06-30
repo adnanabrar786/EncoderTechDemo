@@ -1,20 +1,24 @@
 import React from "react";
-import { RiComputerLine } from "react-icons/ri";
 
 import { FcAndroidOs } from "react-icons/fc";
 import { SiAngular } from "react-icons/si";
 import { ImStack } from "react-icons/im";
 import { MdOutlineMobileScreenShare } from "react-icons/md";
 import { SiIonic } from "react-icons/si";
-import { ImFire } from "react-icons/im";
-import { SiPhp } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { IoLogoPython } from "react-icons/io";
 import { BsApple } from "react-icons/bs";
 import { ImWordpress } from "react-icons/im";
 import { DiDotnet } from "react-icons/di";
 import { TbHeartRateMonitor } from "react-icons/tb";
-// import { BsApple } from "react-icons/bs";
+
+import codeignetor from "./solutionIcon/codeignetor.jpg";
+import devops from "./icon/devops.png";
+import php from "./icon/php.png";
+import python from "./icon/python.jpg";
+import flutter from "./icon/flutter.png";
+import UiUx from "./solutionIcon/UiUx.png";
+
+import magneto from "./solutionIcon/magneto.png";
 
 const CardSolution = () => {
   return (
@@ -31,9 +35,12 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <TbHeartRateMonitor style={{color:"#24bad6"}} className="CardSolution_icon" />
+              <TbHeartRateMonitor
+                style={{ color: "#24bad6" }}
+                className="CardSolution_icon"
+              />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire Web Developers
               </p>
             </div>
           </div>
@@ -52,7 +59,7 @@ const CardSolution = () => {
             <div class="card-body">
               <FcAndroidOs className="CardSolution_icon" />
               <p class="CardSolution_heading card-title">
-                Hire Android App Development
+                Hire Android App Developers
               </p>
             </div>
           </div>
@@ -74,7 +81,7 @@ const CardSolution = () => {
                 className="CardSolution_icon"
               />
               <p class="CardSolution_heading card-title">
-                Hire Angularjs Development
+                Hire Angularjs Developers
               </p>
             </div>
           </div>
@@ -93,7 +100,7 @@ const CardSolution = () => {
             <div class="card-body">
               <ImStack className="CardSolution_icon" />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire Full Stack Developers
               </p>
             </div>
           </div>
@@ -115,7 +122,7 @@ const CardSolution = () => {
                 className="CardSolution_icon"
               />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire Mobile App Developers
               </p>
             </div>
           </div>
@@ -132,9 +139,12 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <SiIonic style={{color:"#5682e2"}} className="CardSolution_icon" />
+              <SiIonic
+                style={{ color: "#5682e2" }}
+                className="CardSolution_icon"
+              />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire ionic App Developers
               </p>
             </div>
           </div>
@@ -151,12 +161,13 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <ImFire
-                style={{ color: "#e34d10" }}
+              <img
+                src={codeignetor}
+                alt="codeinteger"
                 className="CardSolution_icon"
               />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire CodeIgnitor Developers
               </p>
             </div>
           </div>
@@ -173,9 +184,10 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <RiComputerLine className="CardSolution_icon" />
+              <img src={devops} alt="devops" className="CardSolution_icon" />
+
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire Devops Developers
               </p>
             </div>
           </div>
@@ -192,10 +204,8 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <SiPhp className="CardSolution_icon" />
-              <p class="CardSolution_heading card-title">
-                Hire Web Development
-              </p>
+              <img src={php} alt="php" className="CardSolution_icon" />
+              <p class="CardSolution_heading card-title">Hire PHP Developers</p>
             </div>
           </div>
         </div>
@@ -211,9 +221,12 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <FaReact className="CardSolution_icon" />
+              <FaReact
+                style={{ color: "#7be0f4" }}
+                className="CardSolution_icon"
+              />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire React Native Developers
               </p>
             </div>
           </div>
@@ -230,9 +243,9 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <RiComputerLine className="CardSolution_icon" />
+              <img src={magneto} alt="magneto" className="CardSolution_icon" />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire Magneto Developers
               </p>
             </div>
           </div>
@@ -249,9 +262,9 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <IoLogoPython className="CardSolution_icon" />
+              <img src={python} alt="python" className="CardSolution_icon" />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire Python Developers
               </p>
             </div>
           </div>
@@ -268,9 +281,12 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <BsApple className="CardSolution_icon" />
+              <BsApple
+                style={{ color: "#808080" }}
+                className="CardSolution_icon"
+              />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire Iphon App Developers
               </p>
             </div>
           </div>
@@ -287,9 +303,9 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <RiComputerLine className="CardSolution_icon" />
+              <img src={flutter} alt="flutter" className="CardSolution_icon" />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire Flutter Developers
               </p>
             </div>
           </div>
@@ -308,7 +324,7 @@ const CardSolution = () => {
             <div class="card-body">
               <ImWordpress className="CardSolution_icon" />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire Wordpress Developers
               </p>
             </div>
           </div>
@@ -326,9 +342,7 @@ const CardSolution = () => {
           >
             <div class="card-body">
               <DiDotnet className="CardSolution_icon" />
-              <p class="CardSolution_heading card-title">
-                Hire Web Development
-              </p>
+              <p class="CardSolution_heading card-title">Hire .Net Developers</p>
             </div>
           </div>
         </div>
@@ -344,15 +358,13 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <RiComputerLine className="CardSolution_icon" />
-              <p class="CardSolution_heading card-title">
-                Hire Web Development
-              </p>
+              <img src={UiUx} alt="flutter" className="CardSolution_icon" />
+              <p class="CardSolution_heading card-title">Hire UI/UX Designer</p>
             </div>
           </div>
         </div>
         {/* nineteen */}
-        <div className="cardsolution_map_Sub_container">
+        {/* <div className="cardsolution_map_Sub_container">
           <div
             class="CardSolution_container card"
             style={{
@@ -363,13 +375,17 @@ const CardSolution = () => {
             }}
           >
             <div class="card-body">
-              <RiComputerLine className="CardSolution_icon" />
+              <img
+                src={codeignetor}
+                alt="codeinteger"
+                className="CardSolution_icon"
+              />
               <p class="CardSolution_heading card-title">
-                Hire Web Development
+                Hire CodeIgnitor Developer
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
