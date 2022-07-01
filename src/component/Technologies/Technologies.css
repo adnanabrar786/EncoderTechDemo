@@ -10,11 +10,11 @@
 
 .Technologis_container {
   padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .Technologies_paragraph_container {
-  margin-top: 100px;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-left: 80px;
   background-color: rgba(0, 0, 0, 0.027451);
 }

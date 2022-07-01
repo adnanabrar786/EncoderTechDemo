@@ -5,7 +5,6 @@ import ReactPlayer from "react-player";
 import CardTruestedBy from "./CardTruestedBy";
 import { SiUpwork } from "react-icons/si";
 
-
 // discuss section
 // Latest work
 // industry we serve or services
@@ -30,10 +29,6 @@ const LatestWork = () => {
             <div>
               <button className="Talkexpert_button">
                 TALK TO OUR EXPERTS
-                <i
-                  class="bi bi-arrow-up-right"
-                  style={{ paddingLeft: "5px" }}
-                ></i>
               </button>
             </div>
           </div>
@@ -60,22 +55,19 @@ const LatestWork = () => {
               </p>
               <button className="LatestWork_button">
                 VIEW ALL CASE STUDIES
-                <i
-                  class="bi bi-arrow-up-right"
-                  style={{ paddingLeft: "10px" }}
-                ></i>
               </button>
               <div className="LatestWork_box" id="LatestWork_box_boxOne">
                 <div class="LatestWork_box_div">
-                  <h3>E-commerce</h3>
+                  <h3>Car Racing Game</h3>
                   <h5 className="LatestWork_box_div_h5">(web and app)</h5>
                   <p className="LatestWork_box_div_p">
-                    Virtual trial room with augmented reality is the advancement
-                    and technological innovation in the fashion industry. “Try
-                    before you buy ” worked years ago for efficient customer
-                    engagement in outfit stores. Now the concept is gradually
-                    being replaced via virtual trial rooms which let customers
-                    try clothes virtually that
+                    Car racing games are dedicated to those who crave to feel
+                    emotions like speed, thrill and adrenaline rush being a part
+                    of the race. Besides being a jam-packed gaming industry with
+                    a plethora of racing games (car and bikes), the original
+                    graphic design of the games and real physics simulation is
+                    what makes them unique from others and lets players get
+                    engaged with the games for hours.
                   </p>
                 </div>
               </div>
@@ -83,7 +75,7 @@ const LatestWork = () => {
             <div className="col-6">
               <div className="LatestWork_box" id="LatestWork_box_boxTwo">
                 <div class="LatestWork_box_div">
-                  <h3>E-commerce</h3>
+                  <h3>Pizza maker</h3>
                   <h5 className="LatestWork_box_div_h5">(web and app)</h5>
                   <p className="LatestWork_box_div_p">
                     Virtual trial room with augmented reality is the advancement
@@ -91,13 +83,14 @@ const LatestWork = () => {
                     before you buy ” worked years ago for efficient customer
                     engagement in outfit stores. Now the concept is gradually
                     being replaced via virtual trial rooms which let customers
-                    try clothes virtually that
+                    try clothes virtually that translates into eliminating long
+                    queues and waiting periods in front of trail rooms.
                   </p>
                 </div>
               </div>
               <div className="LatestWork_box" id="LatestWork_box_boxThree">
                 <div class="LatestWork_box_div">
-                  <h3>E-commerce</h3>
+                  <h3>E-Learning Management System</h3>
                   <h5 className="LatestWork_box_div_h5">(web and app)</h5>
                   <p className="LatestWork_box_div_p">
                     Virtual trial room with augmented reality is the advancement
@@ -105,7 +98,8 @@ const LatestWork = () => {
                     before you buy ” worked years ago for efficient customer
                     engagement in outfit stores. Now the concept is gradually
                     being replaced via virtual trial rooms which let customers
-                    try clothes virtually that
+                    try clothes virtually that translates into eliminating long
+                    queues and waiting periods in front of trail rooms.
                   </p>
                 </div>
               </div>
@@ -159,15 +153,11 @@ const LatestWork = () => {
               <ReactPlayer
                 width="80%"
                 height="320px"
-                url="https://youtu.be/AuVHftBiDVw"
+                url="https://www.youtube.com/watch?v=UalTfOIDQ7M"
                 controls
               />
               <button className="ARCHIEVEMENT_LEFT_button">
-                TALK TO OUR EXPERTS
-                <i
-                  class="bi bi-arrow-up-right"
-                  style={{ paddingLeft: "5px" }}
-                ></i>
+                 CONTACT US
               </button>
             </div>
             <div className="ARCHIEVEMENT_rightwork_container col-6">
@@ -259,10 +249,6 @@ const LatestWork = () => {
           <div className="TrustedBy_button_div">
             <button className="TrustedBy_button">
               GET FREE CONSULTATION
-              <i
-                class="bi bi-arrow-up-right"
-                style={{ paddingLeft: "5px" }}
-              ></i>
             </button>
           </div>
         </section>

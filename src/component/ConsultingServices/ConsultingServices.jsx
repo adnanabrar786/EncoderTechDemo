@@ -67,10 +67,6 @@ const ConsultingServices = () => {
             </div>
             <button className="mosttrusted_leftDiv_button">
               GET A FREE CONSULTATION
-              <i
-                class="bi bi-arrow-up-right"
-                style={{ paddingLeft: "8px" }}
-              ></i>
             </button>
           </div>
 
@@ -139,10 +135,6 @@ const ConsultingServices = () => {
               <div>
                 <button className="mostTrusted_Rightbutton">
                   CONTACT US
-                  <i
-                    class="bi bi-arrow-up-right"
-                    style={{ paddingLeft: "15px" }}
-                  ></i>
                 </button>
               </div>
             </div>

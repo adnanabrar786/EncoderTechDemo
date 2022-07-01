@@ -8,7 +8,7 @@
   --white: #ffffff;
 }
 
-li{
+.navbar_allwork_container > li{
     list-style-type: none;
 }
 
@@ -27,12 +27,12 @@ li{
   font-size: 16px;
   display: flex;
   justify-content: space-around;
-  height: 105px;
+  height: 90px;
   align-items: center;
 }
 
 .navbarlogo {
-  height: 80px;
+  height: 60px;
 }
 
 .navbar_rightdiv {

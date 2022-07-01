@@ -33,7 +33,6 @@
   height: 320px;
   background-color: blue;
   z-index: -1;
-
 }
 
 .ClientSay_middleVideo {
@@ -51,68 +50,99 @@
   z-index: -1;
 }
 
-
 /* ClientSay Button work */
-.ClientSay_button_div{
-    text-align: center;
-  }
-  
-  .ClientSay_button {
-    font-family: "Poppins Medium";
-    margin-top: 30px;
-    height: 60px;
-    width: 230px;
-    color: var(--white);
-    border: 2px solid var(--blue);
-    background-color: var(--blue);
-  }
+.ClientSay_button_div {
+  text-align: center;
+}
 
-  /* ClientSay end  */
+.ClientSay_button {
+  font-family: "Poppins Medium";
+  margin-top: 30px;
+  height: 60px;
+  width: 230px;
+  color: var(--white);
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+}
 
+/* ClientSay end  */
 
+/* BLOG container section start */
 
-  /* BLOG container section start */
+.BLOG_row {
+  display: flex;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
 
-  .BLOG_row{
-      display: flex;
-    margin-bottom: 100px;
-    margin-left: 80px;
-    margin-right: 80px;
-  }
+.BLOG_heading {
+  color: var(--orange);
+  letter-spacing: 12px;
+  font-size: 16px;
+  font-family: "Poppins Medium";
+}
 
+.BLOG_paragraph {
+  font-size: 38px;
+}
 
-  .BLOG_heading {
-    color: var(--orange);
-    letter-spacing: 12px;
-    font-size: 16px;
-    font-family: "Poppins Medium";
-  }
+/* Blog_Picture */
+.Blog_Picture_div {
+  margin-top: 30px;
+  width: 96%;
+  height: 310px;
+  background-color: aquamarine;
+}
+.Blog_Picture_div:hover {
+  transform: scale(1.1); 
+}
 
-  .BLOG_paragraph {
-    font-size: 38px;
-  }
+.Blog_Picture_div_para{
+  opacity: 0.9;
+  background-color: #000000;
+  color: var(--white);
+  height: 10%;
+  width: 100%;
+}
 
-  /* Blog_Picture */
-  .Blog_Picture{
-      margin-top: 30px;
-      width: 100%;
-      height: 325px;
-      background-color: aquamarine;
-  }
+.Blog_Picture_div_para:hover {
+  color:#87CEEB;
+}
 
+#Blog_Picture_one {
+  background: url("./blogimages/appstudent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Blog_Picture_Two {
+  background: url("./blogimages/nft.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Blog_Picture_Three {
+  background: url("./blogimages/onlinebusiness.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Blog_Picture_Four {
+  background: url("./blogimages/smallbusiness.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  /* ClientSay_ button */
-  .blog_button_Div{
-    text-align: center;
-  }
-  
-  .blog_button {
-    font-family: "Poppins Medium";
-    margin-top: 30px;
-    height: 60px;
-    width: 230px;
-    color: var(--white);
-    border: 2px solid var(--blue);
-    background-color: var(--blue);
-  }
-    /* BLOG container section end */
+/* ClientSay_ button */
+.blog_button_Div {
+  text-align: center;
+}
+
+.blog_button {
+  font-family: "Poppins Medium";
+  margin-top: 30px;
+  height: 60px;
+  width: 230px;
+  color: var(--white);
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+}
+/* BLOG container section end */

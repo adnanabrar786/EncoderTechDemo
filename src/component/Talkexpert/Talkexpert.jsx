@@ -24,7 +24,6 @@ const Talkexpert = () => {
 
           <button className="Talkexpert_button">
             TALK TO OUR EXPERTS
-            <i class="bi bi-arrow-up-right" style={{ paddingLeft: "5px" }}></i>
           </button>
         </div>
         <div className="Talkexpert_right_div col-6">

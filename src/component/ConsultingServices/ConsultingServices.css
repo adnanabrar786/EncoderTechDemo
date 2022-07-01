@@ -76,8 +76,12 @@
   font-size: 18px;
 }
 
+.CardCousultingservices_ShareIcon_para{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .CardCousultingservices_ShareIcon {
-  margin-left: 230px;
   width: 31px;
   height: 31px;
 }

@@ -57,10 +57,6 @@ const Technologis = () => {
             </p>
             <button className="Talkexpert_button">
               TALK TO OUR EXPERTS
-              <i
-                class="bi bi-arrow-up-right"
-                style={{ paddingLeft: "5px" }}
-              ></i>
             </button>
           </div>
           {/* solution right work */}

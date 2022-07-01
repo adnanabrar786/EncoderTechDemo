@@ -39,7 +39,7 @@ const CardA = () => {
               developing native and cross-platform mobile apps suitable for all
               business verticals.
             </p>
-            <p>
+            <p className="CardCousultingservices_ShareIcon_para">
               <FaRegShareSquare className="CardCousultingservices_ShareIcon" />
             </p>
           </div>
@@ -70,7 +70,7 @@ const CardA = () => {
               developing native and cross-platform mobile apps suitable for all
               business verticals.
             </p>
-            <p>
+            <p className="CardCousultingservices_ShareIcon_para">
               <FaRegShareSquare className="CardCousultingservices_ShareIcon" />
             </p>
           </div>
@@ -101,7 +101,7 @@ const CardA = () => {
               to develop scalable websites and web applications for your
               business growth..
             </p>
-            <p>
+            <p className="CardCousultingservices_ShareIcon_para">
               <FaRegShareSquare className="CardCousultingservices_ShareIcon" />
             </p>
           </div>
@@ -132,13 +132,12 @@ const CardA = () => {
               development to reduce the complexity and time needed to deliver
               applications..
             </p>
-            <p>
+            <p className="CardCousultingservices_ShareIcon_para">
               <FaRegShareSquare className="CardCousultingservices_ShareIcon" />
             </p>
           </div>
         </div>
 
-        {/* two */}
         {/*  Salesforce Development */}
 
         <div
@@ -165,7 +164,7 @@ const CardA = () => {
               enterprise-level business applications and scale your customer
               relationships.
             </p>
-            <p>
+            <p className="CardCousultingservices_ShareIcon_para">
               <FaRegShareSquare className="CardCousultingservices_ShareIcon" />
             </p>
           </div>
@@ -197,7 +196,7 @@ const CardA = () => {
               of products and IT services that gives a dynamic boost to your
               business.
             </p>
-            <p>
+            <p className="CardCousultingservices_ShareIcon_para">
               <FaRegShareSquare className="CardCousultingservices_ShareIcon" />
             </p>
           </div>
@@ -230,7 +229,7 @@ const CardA = () => {
               developing native and cross-platform mobile apps suitable for all
               business verticals.
             </p>
-            <p>
+            <p className="CardCousultingservices_ShareIcon_para">
               <FaRegShareSquare className="CardCousultingservices_ShareIcon" />
             </p>
           </div>
@@ -262,7 +261,7 @@ const CardA = () => {
               provider to develop and manage decentralized solutions in the
               global financial sector.
             </p>
-            <p>
+            <p className="CardCousultingservices_ShareIcon_para">
               <FaRegShareSquare className="CardCousultingservices_ShareIcon" />
             </p>
           </div>

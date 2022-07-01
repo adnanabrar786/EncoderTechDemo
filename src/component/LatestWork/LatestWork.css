@@ -84,19 +84,20 @@
 }
 
 #LatestWork_box_boxOne {
-  background: url(./images//carracing.jpg);
+  opacity: 1.0;
+  background: url(./images//latestWorkImages//carracing.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #LatestWork_box_boxTwo {
-  background: url(./images//Ecommerce.jpg);
+  background: url(./images/latestWorkImages//pizzamaker.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #LatestWork_box_boxThree {
-  background: url(./images//figma.jpg);
+  background: url(./images//latestWorkImages//Elearning.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -342,6 +343,38 @@
   margin: 80px 0px;
 }
 
+
+/* CardTrustedBy_card background images id */
+#CardTrustedBy_cardOne:hover {
+   background-color: var(--blue);
+}
+#CardTrustedBy_cardTwo:hover {
+  background-color: var(--blue);
+}
+#CardTrustedBy_cardThree:hover {
+  background-color: var(--blue);
+}
+#CardTrustedBy_cardFour:hover {
+  background-color: var(--blue);
+}
+#CardTrustedBy_cardFive:hover {
+  background-color: var(--blue);
+}
+#CardTrustedBy_cardSix:hover {
+  background-color: var(--blue);
+}
+#CardTrustedBy_cardSeven:hover {
+  background-color: var(--blue);
+}
+#CardTrustedBy_cardEight:hover {
+  background-color: var(--blue);
+}
+#CardTrustedBy_cardNine:hover {
+  background-color: var(--blue);
+}
+#CardTrustedBy_cardTen:hover {
+  background-color: var(--blue);
+}
 
 .TrustedBy_button_div {
   text-align: center;

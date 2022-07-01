@@ -10,20 +10,9 @@ import { BsYoutube } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { ImSkype } from "react-icons/im";
 
-
 // import { ImSkype } from "react-icons/ai";
 // import { ImSkype } from "react-icons/ai";
 // import { ImSkype } from "react-icons/ai";
-
-
-
-
-
-import {  } from "react-icons/fi";
-
-
-
-
 
 const Footer = () => {
   return (
@@ -158,54 +147,58 @@ const Footer = () => {
         <main className="BottomFooter_rowOne row">
           <div className="col-3">
             <h5 className="BottomFooter_rowOne_heading">Services</h5>
-            <ul>
-              <li>li1</li>
-              <li>li2</li>
-              <li>li3</li>
-              <li>li4</li>
-              <li>li5</li>
-              <li>li6</li>
-              <li>li7</li>
-              <li>li8</li>
+            <ul className="BottomFooter_rowOne_ul">
+              <li>SaaS Development</li>
+              <li>CRM Solution</li>
+              <li>Outsource App Development</li>
+              <li>Cloud Computing</li>
+              <li>Blockchain Development</li>
+              <li>PHP Development</li>
+              <li>MEAN Stack Development</li>
+              <li>Nodejs Development</li>
+              <li>DevOps Development</li>
+              <li>Angular JS Development</li>
+              <li>Unity Game Development</li>
             </ul>
           </div>
           <div className="col-3">
-            <h5 className="BottomFooter_rowOne_heading">Services</h5>
-            <ul>
-              <li>li1</li>
-              <li>li2</li>
-              <li>li3</li>
-              <li>li4</li>
-              <li>li5</li>
-              <li>li6</li>
-              <li>li7</li>
-              <li>li8</li>
+            <h5 className="BottomFooter_rowOne_heading">ON DEMAND SOLUTIONS</h5>
+            <ul className="BottomFooter_rowOne_ul">
+              <li>Taxi App Solution</li>
+              <li>Food Delivering App Solutions</li>
+              <li>ELearning App Solutions</li>
+              <li>Lifestyle App Development</li>
+              <li>Healthcare App Development</li>
+              <li>On Demand eWallet App Solutions</li>
+              <li>Fantasy Sports App Development</li>
+              <li>Grocery Delivery App Development</li>
+              <li>Live Streaming App Development</li>
             </ul>
           </div>
           <div className="col-3">
-            <h5 className="BottomFooter_rowOne_heading">Services</h5>
-            <ul>
-              <li>li1</li>
-              <li>li2</li>
-              <li>li3</li>
-              <li>li4</li>
-              <li>li5</li>
-              <li>li6</li>
-              <li>li7</li>
-              <li>li8</li>
+            <h5 className="BottomFooter_rowOne_heading">DIGITAL TRANSFORMATION</h5>
+            <ul className="BottomFooter_rowOne_ul">
+              <li>IoT App Development</li>
+              <li>AR App Development</li>
+              <li>VR App Development</li>
+              <li>Big Data</li>
+              <li>ibeacon App Development</li>
+              <li>Progressive Web App</li>
+              <li>Talend Data Integration</li>
             </ul>
           </div>
           <div className="col-3">
-            <h5 className="BottomFooter_rowOne_heading">Services</h5>
-            <ul>
-              <li>li1</li>
-              <li>li2</li>
-              <li>li3</li>
-              <li>li4</li>
-              <li>li5</li>
-              <li>li6</li>
-              <li>li7</li>
-              <li>li8</li>
+            <h5 className="BottomFooter_rowOne_heading">USEFUL LINKS</h5>
+            <ul className="BottomFooter_rowOne_ul">
+              <li>Contact Us</li>
+              <li>About Us</li>
+              <li>Blog</li>
+              <li>Case Studies</li>
+              <li>Testimonials</li>
+              <li>Referral Partner Program</li>
+              <li>Privacy Policy</li>
+              <li>Disclaimer</li>
+              <li>Our Training Program</li>
             </ul>
           </div>
         </main>
@@ -215,24 +208,36 @@ const Footer = () => {
         {/* BottomFooter_rowTwo start  */}
         <main className="BottomFooter_rowTwo  row">
           <div className="col-6">
-            <div className="BottomFooter_rowTwo_colOne" >
-              <p id="BottomFooter_rowTwo_iconPara_id"> <FiFacebook className="BottomFooter_rowTwo_icon" /></p>
-              <p className="BottomFooter_rowTwo_iconPara"> <FiTwitter className="BottomFooter_rowTwo_icon" /></p>
-              <p className="BottomFooter_rowTwo_iconPara"> <AiFillLinkedin className="BottomFooter_rowTwo_icon" /></p>
-              <p className="BottomFooter_rowTwo_iconPara"> <BsYoutube className="BottomFooter_rowTwo_icon" /></p>
-              <p className="BottomFooter_rowTwo_iconPara"> <BsInstagram className="BottomFooter_rowTwo_icon" /></p>
-              <p className="BottomFooter_rowTwo_iconPara"> <ImSkype className="BottomFooter_rowTwo_icon" /></p>
+            <div className="BottomFooter_rowTwo_colOne">
+              <p id="BottomFooter_rowTwo_iconPara_id">
+                <FiFacebook className="BottomFooter_rowTwo_icon" />
+              </p>
+              <p className="BottomFooter_rowTwo_iconPara">
+                <FiTwitter className="BottomFooter_rowTwo_icon" />
+              </p>
+              <p className="BottomFooter_rowTwo_iconPara">
+                <AiFillLinkedin className="BottomFooter_rowTwo_icon" />
+              </p>
+              <p className="BottomFooter_rowTwo_iconPara">
+                <BsYoutube className="BottomFooter_rowTwo_icon" />
+              </p>
+              <p className="BottomFooter_rowTwo_iconPara">
+                <BsInstagram className="BottomFooter_rowTwo_icon" />
+              </p>
+              <p className="BottomFooter_rowTwo_iconPara"> 
+                <ImSkype className="BottomFooter_rowTwo_icon" />
+              </p>
             </div>
-            <div className="BottomFooter_rowTwo_fontSize">
+            <div id="BottomFooter_rowTwo_paraLight" className="BottomFooter_rowTwo_fontSize">
               © 2008-2022 Copyright theninehertz.com, All rights reserved.
             </div>
           </div>
-          <div className="col-4">
-            <p className="BottomFooter_rowTwo_fontSize">
+          <div className="BottomFooter_rowTwo_fontSize col-4">
+            <p>
               <MdCall className="BottomFooter_calllogo" />
               <span style={{ paddingLeft: "12px" }}>+2222200198298192</span>
             </p>
-            <p className="BottomFooter_rowTwo_fontSize">
+            <p>
               <span>gmail logo</span>sales@theninehertz.com
             </p>
           </div>
