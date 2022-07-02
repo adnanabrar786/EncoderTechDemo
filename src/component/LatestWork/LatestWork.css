@@ -84,7 +84,7 @@
 }
 
 #LatestWork_box_boxOne {
-  opacity: 1.0;
+  opacity: 1;
   background: url(./images//latestWorkImages//carracing.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +175,6 @@
 
 /* CardIndustry start */
 
-
 .CardIndustry_map_container {
   padding: 0px 60px;
   margin-top: 40px;
@@ -201,16 +200,14 @@
 }
 
 .CardIndustry_iconDiv {
-
 }
 
 .CardIndustry_icon {
-
   width: 80px;
   height: 80px;
 }
 
-.CardIndustry_icon_para{
+.CardIndustry_icon_para {
   margin-top: 10px;
   padding-left: 5px;
 }
@@ -241,11 +238,6 @@
   color: var(--white);
   font-size: 40px;
 }
-
-/* .ARCHIEVEMENT_LEFT_DIV_video {
-  width: 100%;
-  height: 320px;
-} */
 
 .ARCHIEVEMENT_LEFT_button {
   font-family: "Poppins Medium";
@@ -291,12 +283,22 @@
 }
 
 .ARCHIEVEMENT_rightwork_logo_Subdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 160px;
   height: 100px;
 }
 
+.ARCHIEVEMENT_rightwork_logo_Subdiv:hover {
+  border: 1px solid var(--blue);
+  box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
 .ARCHIEVEMENT_rightwork_logo {
-  width: 160px;
-  height: 70px;
+  width: 80%;
+  height: 65px;
 }
 
 /* ARCHIEVEMENTS WORK end */
@@ -343,37 +345,15 @@
   margin: 80px 0px;
 }
 
-
 /* CardTrustedBy_card background images id */
-#CardTrustedBy_cardOne:hover {
-   background-color: var(--blue);
+
+.CardTrustedBy_card{
+  opacity: 0.9;
 }
-#CardTrustedBy_cardTwo:hover {
-  background-color: var(--blue);
-}
-#CardTrustedBy_cardThree:hover {
-  background-color: var(--blue);
-}
-#CardTrustedBy_cardFour:hover {
-  background-color: var(--blue);
-}
-#CardTrustedBy_cardFive:hover {
-  background-color: var(--blue);
-}
-#CardTrustedBy_cardSix:hover {
-  background-color: var(--blue);
-}
-#CardTrustedBy_cardSeven:hover {
-  background-color: var(--blue);
-}
-#CardTrustedBy_cardEight:hover {
-  background-color: var(--blue);
-}
-#CardTrustedBy_cardNine:hover {
-  background-color: var(--blue);
-}
-#CardTrustedBy_cardTen:hover {
-  background-color: var(--blue);
+.CardTrustedBy_card:hover {
+  opacity: 1;
+  border: 1px solid var(--blue);
+  box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.25);
 }
 
 .TrustedBy_button_div {

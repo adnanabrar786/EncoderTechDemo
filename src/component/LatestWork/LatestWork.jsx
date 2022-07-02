@@ -3,7 +3,20 @@ import CardIndustry from "./CardIndustry";
 import "./LatestWork.css";
 import ReactPlayer from "react-player";
 import CardTruestedBy from "./CardTruestedBy";
-import { SiUpwork } from "react-icons/si";
+
+import iso from "./images/archievementimages/iso.jpg";
+import clutch from "./images/archievementimages/clutch.png";
+import nasscom from "./images/archievementimages/nasscom.jpg";
+import upwork from "./images/archievementimages/upwork.png";
+import goodfirm from "./images/archievementimages/goodfirm.png";
+import itfirm from "./images/archievementimages/itfirm.png";
+import appfutura from "./images/archievementimages/appfutura.png";
+import google from "./images/archievementimages/google.png";
+import softwareworld from "./images/archievementimages/softwareworld.png";
+import mobileappdaily from "./images/archievementimages/mobileappdaily.jpg";
+import crowdreview from "./images/archievementimages/crowdreview.jpg";
+import gesia from "./images/archievementimages/gesia.jpg";
+import freelancer from "./images/archievementimages/freelancer.jpg";
 
 // discuss section
 // Latest work
@@ -27,9 +40,7 @@ const LatestWork = () => {
               </p>
             </div>
             <div>
-              <button className="Talkexpert_button">
-                TALK TO OUR EXPERTS
-              </button>
+              <button className="Talkexpert_button">TALK TO OUR EXPERTS</button>
             </div>
           </div>
         </section>
@@ -156,9 +167,7 @@ const LatestWork = () => {
                 url="https://www.youtube.com/watch?v=UalTfOIDQ7M"
                 controls
               />
-              <button className="ARCHIEVEMENT_LEFT_button">
-                 CONTACT US
-              </button>
+              <button className="ARCHIEVEMENT_LEFT_button">CONTACT US</button>
             </div>
             <div className="ARCHIEVEMENT_rightwork_container col-6">
               <div>
@@ -172,46 +181,97 @@ const LatestWork = () => {
                   proof of our excellent services and innovative solutions.
                 </p>
               </div>
-
               <div className="ARCHIEVEMENT_rightwork_logodiv">
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={iso}
+                    alt="iso"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={clutch}
+                    alt="clutch"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={nasscom}
+                    alt="nasscom"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={upwork}
+                    alt="upwork"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={goodfirm}
+                    alt="goodfirm"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={itfirm}
+                    alt="itfirm"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={appfutura}
+                    alt="appfutura"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={google}
+                    alt="google"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={softwareworld}
+                    alt="softwareworld"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={mobileappdaily}
+                    alt="mobileappdaily"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={crowdreview}
+                    alt="crowdreview"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={gesia}
+                    alt="igesiaso"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <SiUpwork className="ARCHIEVEMENT_rightwork_logo" />
+                  <img
+                    src={freelancer}
+                    alt="freelancer"
+                    className="ARCHIEVEMENT_rightwork_logo"
+                  />
                 </div>
               </div>
             </div>
@@ -247,9 +307,7 @@ const LatestWork = () => {
           </div>
           {/* TrustedBy card end */}
           <div className="TrustedBy_button_div">
-            <button className="TrustedBy_button">
-              GET FREE CONSULTATION
-            </button>
+            <button className="TrustedBy_button">GET FREE CONSULTATION</button>
           </div>
         </section>
 
