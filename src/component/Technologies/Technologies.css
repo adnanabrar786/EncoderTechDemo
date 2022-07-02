@@ -1,16 +1,6 @@
-@import url(//db.onlinewebfonts.com/c/0c28006f19928dfd146027cfd7024ca0?family=Poppins+Medium);
-@import url(//db.onlinewebfonts.com/c/2e6cd8faed5d485da4baf7f2a3202a04?family=Poppins+Light);
-
-:root {
-  --blue: #1576d8;
-  --white: #ffffff;
-  --grey: #808080;
-  --orange: #ff9100;
-}
-
 .Technologis_container {
   padding-bottom: 50px;
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .Technologies_paragraph_container {
@@ -33,7 +23,6 @@
 
 .Technologies_Rightparagraph {
   border-left: 1px solid var(--grey);
-  font-family: "Poppins Medium";
 }
 
 .Technologies_Rightparagraph_paragraph {
@@ -41,33 +30,31 @@
   margin-left: 20px;
   margin-top: 30px;
   width: 85%;
-  font-family: "Poppins Light";
+  line-height: 2em;
 }
 
 /* Technologis crad start*/
 
 .Technologis_card_Map_container {
-  font-family: "Poppins Medium";
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   background-color: rgba(0, 0, 0, 0.027451);
   padding-top: 50px;
 }
 
-.Technologis_card_Map_SUbcontainer{
+.Technologis_card_Map_SUbcontainer {
   margin: 20px;
 }
 
-.Technologis_card_container{
-  background-color: #ECEFF0;
+.Technologis_card_container {
+  background-color: #eceff0;
 }
 
 .Technologis_card_container:hover {
   color: var(--white);
   background-color: var(--blue);
 }
-
 
 .Card_Technologies_ParagraphWork {
   display: flex;
@@ -86,6 +73,7 @@
 
 .Card_Technologies_CaradHeading {
   font-size: 33px;
+  font-family: "Poppins Medium";
 }
 
 .Card_Technologies_CradPara {
@@ -106,9 +94,9 @@
   align-items: center;
 }
 
-.icon_Sub_Container_para{
+.icon_Sub_Container_para {
   background-color: var(--white);
-  width:  75px;
+  width: 75px;
   height: 75px;
   display: flex;
   border-radius: 10px;
@@ -147,7 +135,6 @@
   font-size: 17px;
   width: 90%;
   line-height: 1.6em;
-  font-family: "Poppins Light";
 }
 
 /* card solution */

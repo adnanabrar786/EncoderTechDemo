@@ -13,7 +13,6 @@ import itfirm from "./images/archievementimages/itfirm.png";
 import appfutura from "./images/archievementimages/appfutura.png";
 import google from "./images/archievementimages/google.png";
 import softwareworld from "./images/archievementimages/softwareworld.png";
-import mobileappdaily from "./images/archievementimages/mobileappdaily.jpg";
 import crowdreview from "./images/archievementimages/crowdreview.jpg";
 import gesia from "./images/archievementimages/gesia.jpg";
 import freelancer from "./images/archievementimages/freelancer.jpg";
@@ -23,12 +22,13 @@ import freelancer from "./images/archievementimages/freelancer.jpg";
 // industry we serve or services
 // ARCHIEVEMENTS
 // TrustedBy section
+//  BLOG section
 
 const LatestWork = () => {
   return (
     <div>
       <div className="LatestWork_container">
-        {/* discuss your project  start */}
+        {/* discuss your project section  start */}
 
         <section className="discuss_section">
           <div className="discuss_container">
@@ -45,9 +45,9 @@ const LatestWork = () => {
           </div>
         </section>
 
-        {/* discuss your project  end */}
+        {/* discuss your project section  end */}
 
-        {/* latest work start */}
+        {/* latest work section start */}
         <section>
           <main className="latestWork_main row">
             <div className="col-6">
@@ -117,9 +117,9 @@ const LatestWork = () => {
             </div>
           </main>
         </section>
-        {/* latest work end */}
+        {/* latest work section end */}
 
-        {/* industry we serve start */}
+        {/* industry we serve section start */}
 
         <section>
           <main className="industry_container row">
@@ -151,9 +151,9 @@ const LatestWork = () => {
           </main>
         </section>
 
-        {/* industry we serve end */}
+        {/* industry we serve section end */}
 
-        {/* ARCHIEVEMENTS WORK START */}
+        {/* ARCHIEVEMENTS section START */}
         <section>
           <main className="ARCHIEVEMENT_Container row">
             <div className="ARCHIEVEMENT_LEFT_DIV col-6">
@@ -245,13 +245,13 @@ const LatestWork = () => {
                     className="ARCHIEVEMENT_rightwork_logo"
                   />
                 </div>
-                <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
+                {/* <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
                   <img
                     src={mobileappdaily}
                     alt="mobileappdaily"
                     className="ARCHIEVEMENT_rightwork_logo"
                   />
-                </div>
+                </div> */}
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
                   <img
                     src={crowdreview}
@@ -278,9 +278,9 @@ const LatestWork = () => {
           </main>
         </section>
 
-        {/* ARCHIEVEMENTS WORK END */}
+        {/* ARCHIEVEMENTS section END */}
 
-        {/* TrustedBy start */}
+        {/* TrustedBy section start */}
         <section className="TrustedBy_section">
           {/* ConsultingServices top paragraph start */}
           <div className="TrustedBy_container row">
@@ -311,7 +311,64 @@ const LatestWork = () => {
           </div>
         </section>
 
-        {/* TrustedBy end */}
+        {/* TrustedBy section end */}
+
+
+           {/* TECHNICAL BLOG SECTION START */}
+
+      <section>
+        <main className="BLOG_row row">
+          <div className="BLOG_Left_col col-6">
+            <div>
+              <p className="BLOG_heading">TECHNICAL BLOGS</p>
+              <p className="BLOG_paragraph">
+                Latest <b>Blogs</b> And <b>News</b>
+              </p>
+              <p>
+                Stay updated with the latest development insights,
+                technologies,trends.
+              </p>
+            </div>
+
+            {/* client say  video card */}
+            {/* Blog_Picture_one */}
+            <div id="Blog_Picture_one" className="Blog_Picture_div">
+              <p className="Blog_Picture_div_para">
+                Best Useful Apps for Students on iPad, iPhone, Android (2022)
+              </p>
+            </div>
+            {/* Blog_Picture_Two */}
+            <div id="Blog_Picture_Two" className="Blog_Picture_div">
+              <p className="Blog_Picture_div_para">
+                Best NFT Tokens & Coins to Buy in 2022 [Non Fungible Tokens
+                List]
+              </p>
+            </div>
+          </div>
+          <div className="col-6">
+            {/* Blog_Picture_Three */}
+            <div id="Blog_Picture_Three" className="Blog_Picture_div">
+              <p className="Blog_Picture_div_para">
+                45+ Best Online Business Ideas for Beginners in 2022 [Easy to
+                Start]
+              </p>
+            </div>
+            {/* Blog_Picture_Four */}
+            <div id="Blog_Picture_Four" className="Blog_Picture_div">
+              <p className="Blog_Picture_div_para">
+                Low-Cost Business Ideas with High Profit -Start With Low
+                Investment
+              </p>
+            </div>
+
+            <div className="blog_button_Div">
+              <button className="blog_button">VIEW ALL TESTIMONIALS</button>
+            </div>
+          </div>
+        </main>
+      </section>
+
+      {/* TECHNICAL BLOG SECTION END */}
       </div>
     </div>
   );

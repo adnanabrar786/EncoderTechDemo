@@ -1,12 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/0c28006f19928dfd146027cfd7024ca0?family=Poppins+Light);
-
-:root {
-  --blue: #1576d8;
-  --white: #ffffff;
-  --grey: #808080;
-  --orange: #ff9100;
-}
-
 .LatestWork_container {
   margin-bottom: 100px;
 }
@@ -57,7 +48,6 @@
   font-size: 17px;
   width: 95%;
   line-height: 1.6em;
-  font-family: "Poppins Light";
 }
 
 .LatestWork_button {
@@ -74,7 +64,6 @@
 
 .LatestWork_box {
   font-family: "Poppins Light";
-
   margin-top: 40px;
   background-color: var(--grey);
   width: 95%;
@@ -168,7 +157,6 @@
 .industry_Rightparagraph_paragraph {
   font-size: 17.5px;
   width: 85%;
-  font-family: "Poppins Light";
 }
 
 /* industry end */
@@ -197,9 +185,6 @@
 .CardIndustry_container:hover {
   border: 1px solid var(--blue);
   box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.75);
-}
-
-.CardIndustry_iconDiv {
 }
 
 .CardIndustry_icon {
@@ -273,13 +258,13 @@
   font-size: 18px;
   width: 80%;
   line-height: 1.6em;
-  font-family: "Poppins Light";
 }
 
 .ARCHIEVEMENT_rightwork_logodiv {
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
+  padding-right:40px;
 }
 
 .ARCHIEVEMENT_rightwork_logo_Subdiv {
@@ -287,8 +272,9 @@
   justify-content: center;
   align-items: center;
   height: 100px;
-  width: 160px;
-  height: 100px;
+  width: 165px;
+  height: 120px;
+  margin-top: 10px;
 }
 
 .ARCHIEVEMENT_rightwork_logo_Subdiv:hover {
@@ -335,7 +321,6 @@
   margin-left: 20px;
   margin-top: 30px;
   width: 85%;
-  font-family: "Poppins Light";
 }
 
 .TrustedBy_map_container {
@@ -371,3 +356,87 @@
 }
 
 /* trusted by end  */
+
+
+
+
+
+/* BLOG container section start */
+
+.BLOG_row {
+  display: flex;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.BLOG_heading {
+  color: var(--orange);
+  letter-spacing: 12px;
+  font-size: 16px;
+  font-family: "Poppins Medium";
+}
+
+.BLOG_paragraph {
+  font-size: 38px;
+}
+
+/* Blog_Picture */
+.Blog_Picture_div {
+  margin-top: 30px;
+  width: 96%;
+  height: 310px;
+  background-color: aquamarine;
+}
+.Blog_Picture_div:hover {
+  transform: scale(1.1); 
+}
+
+.Blog_Picture_div_para{
+  opacity: 0.9;
+  background-color: #000000;
+  color: var(--white);
+  height: 10%;
+  width: 100%;
+}
+
+.Blog_Picture_div_para:hover {
+  color:#87CEEB;
+}
+
+#Blog_Picture_one {
+  background: url("./images/blogimages/appstudent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Blog_Picture_Two {
+  background: url("./images//blogimages/nft.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Blog_Picture_Three {
+  background: url("./images//blogimages/onlinebusiness.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Blog_Picture_Four {
+  background: url("./images//blogimages/smallbusiness.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ClientSay_ button */
+.blog_button_Div {
+  text-align: center;
+}
+
+.blog_button {
+  font-family: "Poppins Medium";
+  margin-top: 30px;
+  height: 60px;
+  width: 230px;
+  color: var(--white);
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+}
+/* BLOG container section end */

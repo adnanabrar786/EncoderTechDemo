@@ -10,7 +10,7 @@ import { GiDigitalTrace } from "react-icons/gi";
 import { HiOutlineCube } from "react-icons/hi";
 // import { FaRegShareSquare } from "react-icons/fa";
 
-const CardA = () => {
+const CardConsultant = () => {
   return (
     <div>
       {/* one */}
@@ -271,4 +271,4 @@ const CardA = () => {
   );
 };
 
-export default CardA;
+export default CardConsultant;

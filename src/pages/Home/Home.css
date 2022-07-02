@@ -1,0 +1,29 @@
+@import url(//db.onlinewebfonts.com/c/0c28006f19928dfd146027cfd7024ca0?family=Poppins+Medium);
+@import url(//db.onlinewebfonts.com/c/2e6cd8faed5d485da4baf7f2a3202a04?family=Poppins+Light);
+
+:root {
+  --blue: #1576d8;
+  --white: #ffffff;
+  --grey: #808080;
+  --orange: #ff9100;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--grey);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--blue);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue);
+}

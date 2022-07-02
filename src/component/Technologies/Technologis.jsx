@@ -3,14 +3,14 @@ import CardSolution from "./CardSolution";
 import "./Technologies.css";
 import CardTechnologies from "./CardTechnologies";
 
-
 // Technologis
 // Solution section
 
 const Technologis = () => {
   return (
     <div>
-      <div className="Technologis_container">
+      {/* technologis section start */}
+      <section className="Technologis_container">
         {/* Technologis top paragraph start */}
         <div className="Technologies_paragraph_container row">
           <div className="col-6">
@@ -36,9 +36,11 @@ const Technologis = () => {
           <CardTechnologies />
         </div>
         {/* Technologis Card end */}
-      </div>
+      </section>
 
-      {/* solution work start */}
+      {/* technologis section end */}
+
+      {/* solution work section start */}
       {/* solution left work */}
       <section>
         <div className="solution_container row">
@@ -55,16 +57,17 @@ const Technologis = () => {
               hire app developers who develop bespoke applications to help you
               redefine customer experiences.
             </p>
-            <button className="Talkexpert_button">
-              TALK TO OUR EXPERTS
-            </button>
+            <button className="Talkexpert_button">TALK TO OUR EXPERTS</button>
           </div>
           {/* solution right work */}
           <div className="col-6">
-              <CardSolution/>
+            <CardSolution />
           </div>
         </div>
       </section>
+
+            {/* solution work section stendrt */}
+
     </div>
   );
 };
