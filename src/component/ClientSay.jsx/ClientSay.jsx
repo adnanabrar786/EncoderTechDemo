@@ -1,6 +1,5 @@
 import React from "react";
 import "./ClientSay.css";
-import ReactPlayer from "react-player";
 
 // ClientSay section  and TechnologyBlog section
 
@@ -93,7 +92,7 @@ const ClientSay = () => {
             {/* Blog_Picture_Four */}
             <div id="Blog_Picture_Four" className="Blog_Picture_div">
               <p className="Blog_Picture_div_para">
-                50+ Low-Cost Business Ideas with High Profit -Start With Low
+                Low-Cost Business Ideas with High Profit -Start With Low
                 Investment
               </p>
             </div>
