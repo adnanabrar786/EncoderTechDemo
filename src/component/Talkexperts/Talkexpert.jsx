@@ -3,7 +3,6 @@ import CardConsultant from "./CardConsultant";
 import "./Talkexpert.css";
 import roundtables from "./images/roundtables.gif";
 
-
 // talk expert
 // ConsultingServices
 //  MostTrusted  Section
@@ -11,7 +10,6 @@ import roundtables from "./images/roundtables.gif";
 const ConsultingServices = () => {
   return (
     <div>
-
       {/* TALK TO OUR EXPERTS section start */}
       <section className="container-fluid ">
         <div className="Talkexpert_container row">
@@ -31,7 +29,6 @@ const ConsultingServices = () => {
               technology to build a better, bold, and futuristic business
               empire.
             </p>
-
             <button className="Talkexpert_button">TALK TO OUR EXPERTS</button>
           </div>
           <div className="Talkexpert_right_div col-6">
@@ -70,7 +67,6 @@ const ConsultingServices = () => {
       </section>
 
       {/* ConsultingServices section start */}
-
 
       {/* most trusted  ssection start */}
 
@@ -179,8 +175,7 @@ const ConsultingServices = () => {
         </div>
       </section>
 
-            {/* most trusted  ssection end */}
-
+      {/* most trusted  ssection end */}
     </div>
   );
 };

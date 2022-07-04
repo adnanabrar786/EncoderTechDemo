@@ -8,6 +8,7 @@ import { BsCodeSquare } from "react-icons/bs";
 import { BsCart } from "react-icons/bs";
 import { GiDigitalTrace } from "react-icons/gi";
 import { HiOutlineCube } from "react-icons/hi";
+import { Link } from "react-router-dom";
 // import { FaRegShareSquare } from "react-icons/fa";
 
 const CardConsultant = () => {
@@ -16,6 +17,7 @@ const CardConsultant = () => {
       {/* one */}
       <div className="ConsultingServices_card_Map_container">
         {/* Mobile App Development */}
+        <Link to="/mobileservice">
         <div
           className="CardCousultingservices_card_container card"
           style={{
@@ -44,7 +46,9 @@ const CardConsultant = () => {
             </p>
           </div>
         </div>
+        </Link>
 
+        <Link to="/about">About</Link>
         {/* game development */}
         <div
           className="CardCousultingservices_card_container card"

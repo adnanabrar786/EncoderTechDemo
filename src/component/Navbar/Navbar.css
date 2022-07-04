@@ -1,6 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/0c28006f19928dfd146027cfd7024ca0?family=Poppins+Medium);
 
-
 /* rgb(65,88,208) 100%) */
 
 :root {
@@ -8,17 +7,18 @@
   --white: #ffffff;
 }
 
-.navbar_allwork_container > li{
-    list-style-type: none;
+.navbar_allwork_container > li {
+  list-style-type: none;
 }
 
 .navbar_allwork_container {
-    position: fixed;
-    align-items: center;
-    width: 100%;
-    background-color: var(--white);
-    box-shadow: -1px 3px 5px 0px rgba(71,59,59,0.75);
-    z-index: 2;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: -1px 3px 5px 0px rgba(71, 59, 59, 0.75);
+  z-index: 2;
 }
 
 .navbar_container {
@@ -41,7 +41,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 #navbar_button {
@@ -50,22 +49,20 @@
   margin-bottom: 10px;
   color: var(--white);
   border: 2px solid var(--white);
-  background-color: var(--blue) ;
+  background-color: var(--blue);
 }
-
 
 /* services Dropdown */
 .navbar_services_container {
-   display: flex;
-   justify-content: space-around;
-} 
+  display: flex;
+  justify-content: space-around;
+}
 
 /* hireDeveloper dropdown */
 .navbar_hireDeveloper_container {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
-
 
 /* solution Dropdown */
 .navbar_solution_container {

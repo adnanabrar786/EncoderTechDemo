@@ -3,7 +3,6 @@ import "./Navbar.css";
 import navbarlogo from "./images/navbarlogo.png";
 import { FaChevronDown } from "react-icons/fa";
 
-
 const Navbar = () => {
   const [company, setCompany] = useState(false);
   const [services, setServices] = useState(false);
@@ -22,17 +21,39 @@ const Navbar = () => {
           <p
             onClick={() => {
               setCompany(!company);
+              setServices(false);
+              setHireDeveloper(false);
+              setSolution(false);
             }}
           >
             Company <FaChevronDown />
           </p>
-          <p onClick={() => setServices(!services)}>
+          <p
+            onClick={() => {
+              setCompany(false);
+              setServices(!services);
+              setHireDeveloper(false);
+              setSolution(false);
+            }}
+          >
             Services <FaChevronDown />
           </p>
-          <p onClick={() => setHireDeveloper(!hireDeveloper)}>
+          <p
+            onClick={() => {
+              setCompany(false);
+              setServices(false);
+              setHireDeveloper(!hireDeveloper);
+              setSolution(false);
+            }}
+          >
             Hire Developers <FaChevronDown />
           </p>
-          <p onClick={() => setSolution(!solution)}>
+          <p  onClick={() => {
+              setCompany(false);
+              setServices(false);
+              setHireDeveloper(false);
+              setSolution(!solution);
+            }}>
             Solutions <FaChevronDown />
           </p>
           <p>Portfolio</p>
@@ -40,7 +61,7 @@ const Navbar = () => {
           <p>Icon</p>
           <button id="navbar_button">
             REQUEST A QUOTE
-            <i class="bi bi-arrow-up-right" style={{paddingLeft:"5px"}}></i>
+            <i class="bi bi-arrow-up-right" style={{ paddingLeft: "5px" }}></i>
           </button>
         </div>
 

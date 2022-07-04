@@ -12,6 +12,10 @@ https://www.google.com/search?q=gif+file+for+it+company&tbm=isch&source=iu&ictx=
 
 
 
+image slider tetorial
+https://react-slideshow-image.netlify.app/?path=/story/introduction--page
+
+
 reminder
 1) dropdown
 2) bold heading

@@ -1,0 +1,232 @@
+.MobileService_container {
+  margin-top: 90px;
+}
+
+/* MobileService_CompanyIntro section start */
+
+.MobileService_CompanyIntro_section {
+  background: linear-gradient(45deg, #061b31 50%, #024284 100%);
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.MobileService_CompanyIntro_main {
+  text-align: center;
+}
+
+.MobileService_CompanyIntro_main > * {
+  margin-top: 40px;
+}
+.MobileService_CompanyIntro_main > h1 {
+  font-size: 50px;
+}
+
+.MobileService_CompanyIntro_main > p {
+  text-align: center;
+  font-size: 22px;
+  padding: 0px 40px;
+}
+
+.MobileService_CompanyIntro_main > button {
+  background: #24c3ff;
+  width: 20rem;
+  height: 4rem;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.MobileService_CompanyIntro_main > button:hover {
+  background-color: #f1f8ff;
+}
+
+/* MobileService_CompanyIntro section end */
+
+/* MobileService_Services section start */
+.MobileService_Services {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 40px;
+}
+
+.MobileService_Services_upperWork > * {
+  margin-top: 40px;
+}
+
+.MobileService_Services > div > button {
+  margin-top: 20px;
+  background: #061b31;
+  background: #24c3ff;
+  width: 14rem;
+  height: 3.5rem;
+  border: 2px solid #24c3ff;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.MobileService_Services > div > button:hover {
+  background: #061b31;
+  color: #ffffff;
+}
+
+.MobileService_Services_upperWork > p {
+  text-align: center;
+  font-size: 20px;
+  padding: 0px 40px;
+  line-height: 2rem;
+}
+
+.MobileService_Services_upperWork > h2 > span {
+  color: #024284;
+}
+
+/* CardServices  start */
+
+.CardServices_map_conatiner {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.CardServices_conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22rem;
+  height: 22em;
+}
+
+.CardServices_conatiner:hover {
+  background-color: #f1f8ff;
+}
+
+.CardServices_icon {
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+.CardServices_heading {
+  margin-top: 10px;
+  width: 90%;
+}
+
+.CardServices_para {
+  margin-top: 10px;
+  width: 80%;
+}
+/* MobileService_Services section start */
+
+/* mobile custom app technologies section start */
+
+.MobileService_CustomApp {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.MobileService_CustomApp_upperWork > * {
+  margin-top: 40px;
+}
+
+/* CardCustomApp_map_container start */
+.CardCustomApp_map_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+.CardCustomApp_container {
+  padding: 20px;
+  background-color: #061b31;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  height: 45em;
+}
+
+.CardCustomApp_container > * {
+  margin-top: 10px;
+}
+
+.CardCustomApp_container > p {
+  line-height: 1.6rem;
+  font-size: 18px;
+}
+
+.CardCustomApp_container > ul > li {
+  line-height: 2.2rem;
+  font-size: 18px;
+}
+.CardCustomApp_logoDiv_mapContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0px 40px;
+}
+
+.CardCustomApp_logoDiv {
+  margin-top: 20px;
+  width: 150px;
+  align-items: center;
+  text-align: center;
+}
+.CardCustomApp_logoDiv > p {
+  font-size: 20px;
+}
+
+.CardCustomApp_logo {
+  width: 110px;
+  height: 110px;
+}
+
+/* mobile custom app technologies section end  */
+
+/* MobileService_integeretionServices section start */
+.MobileService_integeretionServices {
+  text-align: center;
+}
+
+/* MobileService_integeretionServices section end  */
+
+/* mobile services Agency section start  */
+
+.MobileService_agency {
+  padding:55px 0px;
+  text-align: center;
+  background: linear-gradient(45deg, #061b31 50%, #024284 100%);
+  color: #ffffff;
+}
+
+.MobileService_agency_card_mapcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.MobileService_agency_card > h1 {
+    font-size: 65px;
+}
+
+.MobileService_agency_card > p {
+    font-size: 20px;
+    color: #24c3ff;
+}
+
+.MobileService_agency > div > button {
+  background: #24c3ff;
+  width: 14rem;
+  height: 3.8rem;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.MobileService_agency > div > button:hover {
+  background-color: #f1f8ff;
+}
+
+
+/* mobile services Agency section end  */
