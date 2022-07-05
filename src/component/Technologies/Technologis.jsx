@@ -1,6 +1,7 @@
 import React from "react";
 import CardSolution from "./CardSolution";
 import "./Technologies.css";
+import "./TechnologyResponsive.css"
 import CardTechnologies from "./CardTechnologies";
 
 // Technologis
@@ -13,14 +14,14 @@ const Technologis = () => {
       <section className="Technologis_container">
         {/* Technologis top paragraph start */}
         <div className="Technologies_paragraph_container row">
-          <div className="col-6">
+          <div className="col-lg-6 col-md-12 col-sm-12">
             <p className="Technologies_leftparagraph_heading">TECHNOLOGIES</p>
             <p className="Technologies_leftparagraph_para">
               Array Of Top-Notch <b>Technologies</b> For Outsourcing
-              <b>Software</b> Development
+              <b> Software </b> Development
             </p>
           </div>
-          <div className="Technologies_Rightparagraph col-6">
+          <div className="Technologies_Rightparagraph col-lg-6 col-md-12 col-sm-12">
             <p className="Technologies_Rightparagraph_paragraph">
               Our certified software developers have hands-on experience working
               for different technologies towards the sole purpose of developing

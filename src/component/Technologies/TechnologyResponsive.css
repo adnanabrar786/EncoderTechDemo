@@ -1,0 +1,28 @@
+/* technology section start */
+
+@media only screen and (max-width: 968px) {
+  .Technologies_paragraph_container {
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 0px;
+    background-color: rgba(0, 0, 0, 0.027451);
+  }
+
+  .Technologies_leftparagraph_para {
+    width: 100%;
+    font-size: 30px;
+  }
+  .Technologies_Rightparagraph {
+    border: none;
+  }
+
+  .Technologies_Rightparagraph_paragraph {
+    margin-top: 30px;
+    width: 90%;
+    line-height: 2em;
+  }
+}
+
+
+/* technology section end */

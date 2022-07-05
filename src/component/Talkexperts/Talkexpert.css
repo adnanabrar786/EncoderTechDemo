@@ -1,6 +1,5 @@
 /* talk expert section start */
 
-
 .Talkexpert_container {
   margin-left: 60px;
 }
@@ -42,13 +41,13 @@
 
 .ConsultingServices_section {
   background-color: rgba(0, 0, 0, 0.027451);
+  width: auto;
 }
 
 .ConsultingServices_paragraph_container {
   margin-top: 100px;
   padding-top: 100px;
   padding-left: 80px;
-  /* background-color: rgba(0, 0, 0, 0.027451); */
 }
 
 .ConsultingServices_leftparagraph_heading {
@@ -227,7 +226,6 @@
 .mostTrusted_Rightbox_BottomWork_span {
   color: var(--blue);
   font-size: 22px;
-
 }
 
 .mostTrusted_Rightbutton {
@@ -242,3 +240,4 @@
 
 
 /* most trusted  section end */
+

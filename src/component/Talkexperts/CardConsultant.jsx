@@ -17,7 +17,7 @@ const CardConsultant = () => {
       {/* one */}
       <div className="ConsultingServices_card_Map_container">
         {/* Mobile App Development */}
-        <Link to="/mobileservice">
+        {/* <Link to="/mobileservice"> */}
         <div
           className="CardCousultingservices_card_container card"
           style={{
@@ -46,7 +46,7 @@ const CardConsultant = () => {
             </p>
           </div>
         </div>
-        </Link>
+        {/* </Link> */}
 
         {/* game development */}
         <div

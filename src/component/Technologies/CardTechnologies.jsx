@@ -27,7 +27,6 @@ import elasticresearch from "./icon/elasticresearch.png";
 import postgre from "./icon/postgre.png";
 
 const CardTechnologies = () => {
-
   return (
     <div>
       <div className="Technologis_card_Map_container">

@@ -10,9 +10,9 @@ import roundtables from "./images/roundtables.gif";
 
 const ConsultingServices = () => {
   return (
-    <>
+    <div className="b">
       {/* TALK TO OUR EXPERTS section start */}
-      <section className="container-fluid">
+      <section className="container-fluid a">
         <div className="Talkexpert_container row">
           <div className="col-lg-5 col-sm-12  col-md-12">
             <p className="Talkexpert_heading">
@@ -32,7 +32,7 @@ const ConsultingServices = () => {
             </p>
             <button className="Talkexpert_button">TALK TO OUR EXPERTS</button>
           </div>
-          <div className="Talkexpert_right_div col-lg-6 col-md-12 col-md-12">
+          <div className="Talkexpert_right_div col-lg-6 col-md-10 col-md-10">
             <img
               src={roundtables}
               alt="roundtables"
@@ -69,11 +69,11 @@ const ConsultingServices = () => {
 
       {/* ConsultingServices section start */}
 
-      {/* most trusted  ssection start */}
+      {/* most trusted  section start */}
 
       <section className="mosttrusted_container container-fluid">
         <div className="mosttrusted_Sub_container row">
-          <div className="col-5">
+          <div className="col-lg-5 col-md-12 col-sm-12 mosttrusted_Sub_container_colOne">
             <p className="mosttrusted_leftDiv_who">WHO WE ARE</p>
             <p className="mosttrusted_leftDiv_hedding">
               Most <b>Trusted</b> Software Development Company <b>Since 2008</b>
@@ -105,7 +105,7 @@ const ConsultingServices = () => {
           </div>
 
           {/* most trusted  software  since 2008 right work */}
-          <div className="col-7">
+          <div className="col-lg-7 col-md-12 col-sm-12">
             <div className="mostTrusted_Rightbox">
               {/* row_one */}
               <div className="mostTrusted_Rightbox_RowOneDiv">
@@ -156,8 +156,8 @@ const ConsultingServices = () => {
               </div>
             </div>
 
-            <div className="mostTrusted_Rightbox_BottomWork">
-              <div>
+            <div className="mostTrusted_Rightbox_BottomWork row">
+              <div className="col-sm-12">
                 <p className="mostTrusted_Rightbox_BottomWork_p">
                   if you have questions or need help, feel free to contact with
                   our team, or call
@@ -166,7 +166,7 @@ const ConsultingServices = () => {
                   </span>
                 </p>
               </div>
-              <div>
+              <div className="col-sm-12">
                 <button className="mostTrusted_Rightbutton">CONTACT US</button>
               </div>
             </div>
@@ -177,7 +177,7 @@ const ConsultingServices = () => {
       </section>
 
       {/* most trusted  ssection end */}
-    </>
+    </div>
   );
 };
 

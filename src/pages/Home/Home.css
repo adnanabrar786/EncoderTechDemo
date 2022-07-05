@@ -9,8 +9,10 @@
 }
 
 .Home_container{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
   margin-top: 125px;
-  width: auto;
 }
 
 /* width */

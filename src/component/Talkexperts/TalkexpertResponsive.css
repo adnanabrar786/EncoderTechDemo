@@ -3,7 +3,6 @@
 @media only screen and (max-width: 968px) {
   .Talkexpert_container {
     margin-left: 0px;
-    margin-right: 0px;
     text-align: center;
   }
 
@@ -22,12 +21,17 @@
   .Talkexpert_button {
     margin: 20px;
   }
+
+  .Talkexpert_right_image {
+    margin-top: 40px;
+    height: 260px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .Talkexpert_container {
     width: 100%;
-    margin-left: 5px;
+    margin-left: 0px;
     text-align: center;
   }
 
@@ -36,42 +40,115 @@
     height: 200px;
   }
 }
+/* talkexpert section end */
 
 /* ConsultingServices section start */
 
 @media only screen and (max-width: 968px) {
-
-    .ConsultingServices_section {
-        background-color: rgba(0, 0, 0, 0.027451);
-    }
-
   .ConsultingServices_paragraph_container {
     margin-top: 40px;
     padding-top: 40px;
     padding-left: 0px;
+    text-align: center;
   }
   .ConsultingServices_leftparagraph_heading {
-    letter-spacing: 8px;
-    font-size: 18px;
-    text-align: center;
-  }
-  .ConsultingServices_leftparagraph_para {
-    width: 100%;
-    font-size: 28px;
-    text-align: center;
+    letter-spacing: 10px;
+    font-size: 15px;
   }
 
-  
-.ConsultingServices_Rightparagraph {
-    border:hidden;
+  .ConsultingServices_leftparagraph_para {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .ConsultingServices_Rightparagraph {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .ConsultingServices_Rightparagraph_paragraph {
-      width: 100%;
-      text-align: center;
-      margin-left: 0px;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 80%;
+    line-height: 2em;
   }
-  
 }
 
+
+
+@media only screen and (max-width: 600px) {
+  .ConsultingServices_section {
+    padding-bottom: 40px;
+  }
+
+  .ConsultingServices_card_Map_container {
+    padding: 0px 0px;
+  }
+}
 /* ConsultingServices section end */
+
+/* most trusted  section start  */
+@media only screen and (max-width: 968px) {
+  .mosttrusted_Sub_container_colOne {
+    margin-bottom: 40px;
+  }
+
+  .mosttrusted_leftDiv_hedding {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .mosttrusted_leftDiv_paragraghDiv {
+    line-height: 1.8em;
+    width: 100%;
+  }
+
+  .mosttrusted_leftDiv_paragragh_p {
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mosttrusted_container {
+    margin-top: 40px;
+  }
+
+  .mosttrusted_Sub_container {
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mosttrusted_leftDiv_who {
+    letter-spacing: 10px;
+    font-size: 13px;
+  }
+
+  .mosttrusted_leftDiv_hedding {
+    font-size: 25px;
+    /* margin-bottom: 40px; */
+  }
+
+  .mosttrusted_leftDiv_paragragh_p {
+    margin-bottom: 25px;
+    font-size: 17px;
+  }
+
+  .mosttrusted_leftDiv_button {
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    font-size: 13.5px;
+  }
+
+  .mostTrusted_Rightbox_RowTwoDiv {
+    display: none;
+  }
+
+}
+
+/* most trusted  section end  */

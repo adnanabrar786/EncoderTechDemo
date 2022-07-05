@@ -1,0 +1,8 @@
+@media only screen and (max-width: 968px) {
+  .navbar_allwork_container {
+    width: 100%;
+  }
+  .navbar_rightdiv {
+    display: none;
+  }
+}
