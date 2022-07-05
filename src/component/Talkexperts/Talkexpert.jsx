@@ -1,6 +1,7 @@
 import React from "react";
 import CardConsultant from "./CardConsultant";
 import "./Talkexpert.css";
+import "./TalkexpertResponsive.css"
 import roundtables from "./images/roundtables.gif";
 
 // talk expert
@@ -9,11 +10,11 @@ import roundtables from "./images/roundtables.gif";
 
 const ConsultingServices = () => {
   return (
-    <div>
+    <>
       {/* TALK TO OUR EXPERTS section start */}
-      <section className="container-fluid ">
+      <section className="container-fluid">
         <div className="Talkexpert_container row">
-          <div className="col-5">
+          <div className="col-lg-5 col-sm-12  col-md-12">
             <p className="Talkexpert_heading">
               <b>Digital</b> Transformation With Modernized Software And
               <b> IT Consulting</b> Services
@@ -31,7 +32,7 @@ const ConsultingServices = () => {
             </p>
             <button className="Talkexpert_button">TALK TO OUR EXPERTS</button>
           </div>
-          <div className="Talkexpert_right_div col-6">
+          <div className="Talkexpert_right_div col-lg-6 col-md-12 col-md-12">
             <img
               src={roundtables}
               alt="roundtables"
@@ -43,15 +44,15 @@ const ConsultingServices = () => {
 
       {/* TALK TO OUR EXPERTS section end */}
       {/* ConsultingServices section start */}
-      <section>
+      <section className="ConsultingServices_section">
         <div className="ConsultingServices_paragraph_container row">
-          <div className="col-5">
+          <div className="col-lg-5 col-md-12 col-sm-12">
             <p className="ConsultingServices_leftparagraph_heading">SERVICES</p>
             <p className="ConsultingServices_leftparagraph_para">
               Our Robust Suite Of <b>IT Consulting</b> Services
             </p>
           </div>
-          <div className="ConsultingServices_Rightparagraph col-7">
+          <div className="ConsultingServices_Rightparagraph col-lg-7  col-md-12 col-sm-12">
             <p className="ConsultingServices_Rightparagraph_paragraph">
               Our offshore IT consulting services along with the AI-powered core
               helps top companies stay competitive, win new markets and increase
@@ -176,7 +177,7 @@ const ConsultingServices = () => {
       </section>
 
       {/* most trusted  ssection end */}
-    </div>
+    </>
   );
 };
 

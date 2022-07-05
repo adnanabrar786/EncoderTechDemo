@@ -1,5 +1,5 @@
 import React from "react";
-import flutter from "./images/flutter.png";
+// import flutter from "./images/flutter.png";
 import { SiFlutter } from "react-icons/si";
 
 const CardCustomApp = () => {

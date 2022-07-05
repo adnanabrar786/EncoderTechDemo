@@ -48,7 +48,6 @@ const CardConsultant = () => {
         </div>
         </Link>
 
-        <Link to="/about">About</Link>
         {/* game development */}
         <div
           className="CardCousultingservices_card_container card"

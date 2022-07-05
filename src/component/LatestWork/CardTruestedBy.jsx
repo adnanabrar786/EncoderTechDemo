@@ -20,7 +20,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >
@@ -34,7 +34,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >
@@ -48,7 +48,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >
@@ -62,7 +62,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >
@@ -76,7 +76,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >
@@ -90,7 +90,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >
@@ -104,7 +104,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >
@@ -122,7 +122,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >
@@ -140,7 +140,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >
@@ -154,7 +154,7 @@ const CardTruestedBy = () => {
           className="card CardTrustedBy_card"
           style={{
             width: "17rem",
-            height: "9.5rem",
+            height: "8.5rem",
             textAlign: "center",
           }}
         >

@@ -1,0 +1,77 @@
+/* talkexpert section start */
+
+@media only screen and (max-width: 968px) {
+  .Talkexpert_container {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .Talkexpert_heading {
+    font-size: 30px;
+  }
+
+  .Talkexpert_paragraph {
+    margin-top: 0px;
+  }
+
+  .Talkexpert_right_div {
+    margin-left: 0px;
+  }
+
+  .Talkexpert_button {
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Talkexpert_container {
+    width: 100%;
+    margin-left: 5px;
+    text-align: center;
+  }
+
+  .Talkexpert_right_image {
+    margin-top: 30px;
+    height: 200px;
+  }
+}
+
+/* ConsultingServices section start */
+
+@media only screen and (max-width: 968px) {
+
+    .ConsultingServices_section {
+        background-color: rgba(0, 0, 0, 0.027451);
+    }
+
+  .ConsultingServices_paragraph_container {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-left: 0px;
+  }
+  .ConsultingServices_leftparagraph_heading {
+    letter-spacing: 8px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .ConsultingServices_leftparagraph_para {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  
+.ConsultingServices_Rightparagraph {
+    border:hidden;
+  }
+
+  .ConsultingServices_Rightparagraph_paragraph {
+      width: 100%;
+      text-align: center;
+      margin-left: 0px;
+  }
+  
+}
+
+/* ConsultingServices section end */

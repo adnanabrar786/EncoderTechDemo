@@ -40,11 +40,15 @@
 
 /* ConsultingServices section start */
 
+.ConsultingServices_section {
+  background-color: rgba(0, 0, 0, 0.027451);
+}
+
 .ConsultingServices_paragraph_container {
   margin-top: 100px;
   padding-top: 100px;
   padding-left: 80px;
-  background-color: rgba(0, 0, 0, 0.027451);
+  /* background-color: rgba(0, 0, 0, 0.027451); */
 }
 
 .ConsultingServices_leftparagraph_heading {
@@ -74,7 +78,7 @@
 /* {ConsultingServices card start} */
 
 .ConsultingServices_card_Map_container {
-  background-color: rgba(0, 0, 0, 0.027451);
+  /* background-color: rgba(0, 0, 0, 0.027451); */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -88,6 +92,7 @@
 }
 
 .CardCousultingservices_card_container:hover {
+  text-decoration: none;
   background-color: var(--blue);
   color: var(--white);
 }
