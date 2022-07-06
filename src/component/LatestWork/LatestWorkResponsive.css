@@ -21,6 +21,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    .latestWork_main {
+        margin: 0px 5px;
+      }
+
   .discuss_container {
     width: 95%;
   }
@@ -76,10 +81,9 @@
 }
 
 @media only screen and (max-width: 400px) {
-
-    .LatestWork_box_div {
-        margin-left: 5px;
-    }
+  .LatestWork_box_div {
+    margin-left: 5px;
+  }
   .LatestWork_box {
     width: 90%;
     height: 250px;
@@ -106,3 +110,57 @@
   }
 }
 /* latestwork section end */
+
+/* industry we serve section start */
+
+@media only screen and (max-width: 986px) {
+
+    .industry_container {
+        margin-left: 5px;
+      }
+
+  .industry_Leftparagraph {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .industry_leftparagraph_para {
+    font-size: 28px;
+  }
+
+  .industry_leftparagraph_heading {
+    font-size: 14px;
+    letter-spacing: 6px;
+
+  }
+
+  .industry_Rightparagraph {
+    border:none;
+  }
+
+  .industry_Rightparagraph_paragraph {
+    font-size: 16px;
+    width: 85%;
+    text-align: center;
+  }
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    /* .industry_Leftparagraph {
+        width: 100%;
+    } */
+    .industry_leftparagraph_para {
+        font-size: 18px;
+        width:95%;
+      }
+    
+   
+    }
+
+/* industry we serve section end */

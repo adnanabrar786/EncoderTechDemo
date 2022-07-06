@@ -127,16 +127,16 @@ const LatestWork = () => {
 
         <section>
           <main className="industry_container row">
-            <div className="industry_Leftparagraph col-6">
+            <div className="industry_Leftparagraph col-lg-6 col-md-12 col-sm-12">
               <p className="industry_leftparagraph_heading">
                 INDUSTRY WE SERVE
               </p>
               <p className="industry_leftparagraph_para">
-                Best <b>IT Consulting</b> Company Across Different
-                <b>Industry</b> Verticals
+                Best <b> IT Consulting </b> Company Across Different
+                <b> Industry </b> Verticals
               </p>
             </div>
-            <div className="industry_Rightparagraph col-6">
+            <div className="industry_Rightparagraph col-lg-6 col-md-12 col-sm-12">
               <p className="industry_Rightparagraph_paragraph">
                 With a proven track record of completing high-quality projects
                 under expert supervision and within your budget, we have
@@ -249,13 +249,7 @@ const LatestWork = () => {
                     className="ARCHIEVEMENT_rightwork_logo"
                   />
                 </div>
-                {/* <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
-                  <img
-                    src={mobileappdaily}
-                    alt="mobileappdaily"
-                    className="ARCHIEVEMENT_rightwork_logo"
-                  />
-                </div> */}
+
                 <div className="ARCHIEVEMENT_rightwork_logo_Subdiv">
                   <img
                     src={crowdreview}
