@@ -7,6 +7,10 @@
   --white: #ffffff;
 }
 
+.responsive_navbarContainer {
+  display: none;
+}
+
 .navbar_allwork_container > li {
   list-style-type: none;
 }
@@ -50,6 +54,10 @@
   color: var(--white);
   border: 2px solid var(--white);
   background-color: var(--blue);
+}
+
+.dropdownicon {
+  display: none;
 }
 
 /* services Dropdown */

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import "./NavbarResponsive.css"
+import "./NavbarResponsive.css";
 import navbarlogo from "./images/navbarlogo.png";
 import { FaChevronDown } from "react-icons/fa";
+import { AiOutlineBars } from "react-icons/ai";
 
 const Navbar = () => {
   const [company, setCompany] = useState(false);
@@ -12,12 +13,12 @@ const Navbar = () => {
 
   return (
     <div className="navbar_allwork_container">
+      {/* navbar start */}
+
       <div className="navbar_container">
         {/* navbar left div */}
         <img className="navbarlogo" src={navbarlogo} alt="logo" />
-
         {/* navbar right div */}
-
         <div className="navbar_rightdiv">
           <p
             onClick={() => {
@@ -49,25 +50,39 @@ const Navbar = () => {
           >
             Hire Developers <FaChevronDown />
           </p>
-          <p  onClick={() => {
+          <p
+            onClick={() => {
               setCompany(false);
               setServices(false);
               setHireDeveloper(false);
               setSolution(!solution);
-            }}>
+            }}
+          >
             Solutions <FaChevronDown />
           </p>
           <p>Portfolio</p>
           <p>Blog</p>
           <p>Icon</p>
-          <button id="navbar_button">
-            REQUEST A QUOTE
-            <i class="bi bi-arrow-up-right" style={{ paddingLeft: "5px" }}></i>
-          </button>
+          <button id="navbar_button">REQUEST A QUOTE</button>
+          {/* <AiOutlineBars className="dropdownicon" /> */}
         </div>
-
         {/* navbar right div end */}
       </div>
+      {/* navbar end */}
+
+      {/* responsive navbar start */}
+      <div className="responsive_navbarContainer">
+        <div className="responsive_navbarleftdiv">
+          <img className="responsive_navbarlogo" src={navbarlogo} alt="logo" />
+        </div>
+        <div className="responsive_rightdiv">
+          <button className="responsive_button">REQUEST A QUOTE</button>
+          <AiOutlineBars className="responsive_toggle" />
+        </div>
+      </div>
+
+      {/* responsive navbar start */}
+
       {/* company dropdown */}
 
       {company ? <h1>hello</h1> : null}

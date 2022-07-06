@@ -2,7 +2,46 @@
   .navbar_allwork_container {
     width: 100%;
   }
-  .navbar_rightdiv {
+
+  .navbar_container {
     display: none;
+  }
+
+  .responsive_navbarContainer {
+    font-family: "Poppins Medium";
+    font-weight: 2000px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+  }
+
+  .responsive_navbarleftdiv {
+    margin-left: 10px;
+  }
+
+  .responsive_navbarlogo {
+    width: 100px;
+    height: 60px;
+  }
+
+  .responsive_rightdiv {
+    margin-right: 10px;
+  }
+
+  .responsive_button {
+    height: 50px;
+    width: 180px;
+    margin-bottom: 10px;
+    color: var(--white);
+    border: 2px solid var(--white);
+    background-color: var(--blue);
+  }
+
+  .responsive_toggle {
+    width: 45px;
+    height: 30px;
+    margin-left: 1px;
   }
 }

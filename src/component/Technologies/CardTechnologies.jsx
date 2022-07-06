@@ -1,24 +1,24 @@
 import React from "react";
+import "./CardTecgnology.css"
 import { FaMobileAlt } from "react-icons/fa";
 import { BsApple } from "react-icons/bs";
 import { DiAndroid } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { SiXamarin } from "react-icons/si";
 import flutter from "./icon/flutter.png";
-import { BsCodeSquare } from "react-icons/bs";
 
+import { BsCodeSquare } from "react-icons/bs";
 import { SiAngular } from "react-icons/si";
 import HTML5 from "./icon/HTML5.png";
-import { BsJournalCode } from "react-icons/bs";
 import devops from "./icon/devops.png";
 import mean from "./icon/mean.png";
 
+import { BsJournalCode } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
 import { IoLogoLaravel } from "react-icons/io5";
 import python from "./icon/python.jpg";
 import php from "./icon/php.png";
 import dotnet from "./icon/dotnet.jpg";
-
 import { TbDatabase } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 import mongodb from "./icon/mongodb.png";

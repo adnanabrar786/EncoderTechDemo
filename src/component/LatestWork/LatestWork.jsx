@@ -1,6 +1,7 @@
 import React from "react";
 import CardIndustry from "./CardIndustry";
 import "./LatestWork.css";
+import "./LatestWorkResponsive.css";
 import ReactPlayer from "react-player";
 import CardTruestedBy from "./CardTruestedBy";
 
@@ -40,7 +41,7 @@ const LatestWork = () => {
               </p>
             </div>
             <div>
-              <button className="Talkexpert_button">TALK TO OUR EXPERTS</button>
+              <button className="discuss_button">TALK TO OUR EXPERTS</button>
             </div>
           </div>
         </section>
@@ -50,11 +51,11 @@ const LatestWork = () => {
         {/* latest work section start */}
         <section>
           <main className="latestWork_main row">
-            <div className="col-6">
+            <div className="latestWork_upperdiv col-lg-6 col-md-12 col-sm-12">
               <p className="LatestWork_word">LATEST WORK</p>
               <p className="LatestWork_heading">
-                Our <b>Notable</b> Offshore Software Development
-                <b>Case Studies</b>
+                Our <b> Notable </b> Offshore Software Development
+                <b> Case Studies </b>
               </p>
               <p className="LatestWork_paragraph">
                 We are one of the best IT Consulting companies that handle all
@@ -64,9 +65,12 @@ const LatestWork = () => {
                 hire app developers who develop bespoke applications to help you
                 redefine customer experiences.
               </p>
-              <button className="LatestWork_button">
-                VIEW ALL CASE STUDIES
-              </button>
+              <div className="LatestWork_buttondiv">
+                <button className="LatestWork_button">
+                  VIEW ALL CASE STUDIES
+                </button>
+              </div>
+
               <div className="LatestWork_box" id="LatestWork_box_boxOne">
                 <div class="LatestWork_box_div">
                   <h3>Car Racing Game</h3>
@@ -83,7 +87,7 @@ const LatestWork = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-lg-6 col-md-12 col-sm-12">
               <div className="LatestWork_box" id="LatestWork_box_boxTwo">
                 <div class="LatestWork_box_div">
                   <h3>Pizza maker</h3>
@@ -313,62 +317,61 @@ const LatestWork = () => {
 
         {/* TrustedBy section end */}
 
+        {/* TECHNICAL BLOG SECTION START */}
 
-           {/* TECHNICAL BLOG SECTION START */}
+        <section>
+          <main className="BLOG_row row">
+            <div className="BLOG_Left_col col-6">
+              <div>
+                <p className="BLOG_heading">TECHNICAL BLOGS</p>
+                <p className="BLOG_paragraph">
+                  Latest <b>Blogs</b> And <b>News</b>
+                </p>
+                <p>
+                  Stay updated with the latest development insights,
+                  technologies,trends.
+                </p>
+              </div>
 
-      <section>
-        <main className="BLOG_row row">
-          <div className="BLOG_Left_col col-6">
-            <div>
-              <p className="BLOG_heading">TECHNICAL BLOGS</p>
-              <p className="BLOG_paragraph">
-                Latest <b>Blogs</b> And <b>News</b>
-              </p>
-              <p>
-                Stay updated with the latest development insights,
-                technologies,trends.
-              </p>
+              {/* client say  video card */}
+              {/* Blog_Picture_one */}
+              <div id="Blog_Picture_one" className="Blog_Picture_div">
+                <p className="Blog_Picture_div_para">
+                  Best Useful Apps for Students on iPad, iPhone, Android (2022)
+                </p>
+              </div>
+              {/* Blog_Picture_Two */}
+              <div id="Blog_Picture_Two" className="Blog_Picture_div">
+                <p className="Blog_Picture_div_para">
+                  Best NFT Tokens & Coins to Buy in 2022 [Non Fungible Tokens
+                  List]
+                </p>
+              </div>
             </div>
+            <div className="col-6">
+              {/* Blog_Picture_Three */}
+              <div id="Blog_Picture_Three" className="Blog_Picture_div">
+                <p className="Blog_Picture_div_para">
+                  45+ Best Online Business Ideas for Beginners in 2022 [Easy to
+                  Start]
+                </p>
+              </div>
+              {/* Blog_Picture_Four */}
+              <div id="Blog_Picture_Four" className="Blog_Picture_div">
+                <p className="Blog_Picture_div_para">
+                  Low-Cost Business Ideas with High Profit -Start With Low
+                  Investment
+                </p>
+              </div>
 
-            {/* client say  video card */}
-            {/* Blog_Picture_one */}
-            <div id="Blog_Picture_one" className="Blog_Picture_div">
-              <p className="Blog_Picture_div_para">
-                Best Useful Apps for Students on iPad, iPhone, Android (2022)
-              </p>
+              <div className="blog_button_Div">
+                <button className="blog_button">VIEW ALL TESTIMONIALS</button>
+              </div>
             </div>
-            {/* Blog_Picture_Two */}
-            <div id="Blog_Picture_Two" className="Blog_Picture_div">
-              <p className="Blog_Picture_div_para">
-                Best NFT Tokens & Coins to Buy in 2022 [Non Fungible Tokens
-                List]
-              </p>
-            </div>
-          </div>
-          <div className="col-6">
-            {/* Blog_Picture_Three */}
-            <div id="Blog_Picture_Three" className="Blog_Picture_div">
-              <p className="Blog_Picture_div_para">
-                45+ Best Online Business Ideas for Beginners in 2022 [Easy to
-                Start]
-              </p>
-            </div>
-            {/* Blog_Picture_Four */}
-            <div id="Blog_Picture_Four" className="Blog_Picture_div">
-              <p className="Blog_Picture_div_para">
-                Low-Cost Business Ideas with High Profit -Start With Low
-                Investment
-              </p>
-            </div>
+          </main>
+        </section>
 
-            <div className="blog_button_Div">
-              <button className="blog_button">VIEW ALL TESTIMONIALS</button>
-            </div>
-          </div>
-        </main>
-      </section>
-
-      {/* TECHNICAL BLOG SECTION END */}
+        {/* TECHNICAL BLOG SECTION END */}
       </div>
     </div>
   );

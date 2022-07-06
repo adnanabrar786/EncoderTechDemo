@@ -1,8 +1,8 @@
 import React from "react";
 import CardSolution from "./CardSolution";
 import "./Technologies.css";
-import "./TechnologyResponsive.css"
-import CardTechnologies from "./CardTechnologies";
+import "./TechnologyResponsive.css";
+import NewCardTechnology from "./NewCardTechnology";
 
 // Technologis
 // Solution section
@@ -34,7 +34,7 @@ const Technologis = () => {
 
         {/* Technologis Card start */}
         <div>
-          <CardTechnologies />
+          <NewCardTechnology />
         </div>
         {/* Technologis Card end */}
       </section>
@@ -42,10 +42,11 @@ const Technologis = () => {
       {/* technologis section end */}
 
       {/* solution work section start */}
-      {/* solution left work */}
       <section>
         <div className="solution_container row">
-          <div className="col-6">
+          {/* solution left work */}
+
+          <div className="solutin_leftwork col-lg-6 col-md-12 col-sm-12">
             <p className="solution_word">SOLUTION</p>
             <p className="solution_heading">
               <b>Hire Developers</b> For Custom IT Solutions
@@ -58,17 +59,16 @@ const Technologis = () => {
               hire app developers who develop bespoke applications to help you
               redefine customer experiences.
             </p>
-            <button className="Talkexpert_button">TALK TO OUR EXPERTS</button>
+            <button className="solution_button">TALK TO OUR EXPERTS</button>
           </div>
           {/* solution right work */}
-          <div className="col-6">
+          <div className="col-lg-6 col-md-12 col-sm-12">
             <CardSolution />
           </div>
         </div>
       </section>
 
-            {/* solution work section stendrt */}
-
+      {/* solution work section stendrt */}
     </div>
   );
 };
