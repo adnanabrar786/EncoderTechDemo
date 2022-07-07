@@ -160,7 +160,7 @@ const LatestWork = () => {
         {/* ARCHIEVEMENTS section START */}
         <section>
           <main className="ARCHIEVEMENT_Container row">
-            <div className="ARCHIEVEMENT_LEFT_DIV col-6">
+            <div className="ARCHIEVEMENT_LEFT_DIV col-lg-6 col-md-12 col-sm-12">
               <p className="ARCHIEVEMENT_LEFT_DIV_heading">
                 Interested To <b>Develop</b> Your Own <b>App/Web?</b> Take A
                 Glance
@@ -173,8 +173,8 @@ const LatestWork = () => {
               />
               <button className="ARCHIEVEMENT_LEFT_button">CONTACT US</button>
             </div>
-            <div className="ARCHIEVEMENT_rightwork_container col-6">
-              <div>
+            <div className="ARCHIEVEMENT_rightwork_container col-lg-6 col-md-12 col-sm-12">
+              <div id="ARCHIEVEMENT_rightwork_subcontainer">
                 <p className="ARCHIEVEMENT_rightwork_word">ARCHIEVEMENTS</p>
                 <p className="ARCHIEVEMENT_rightwork_heading">
                   <b>Award-Winning</b> Outsourcing IT Company
@@ -282,13 +282,13 @@ const LatestWork = () => {
         <section className="TrustedBy_section">
           {/* ConsultingServices top paragraph start */}
           <div className="TrustedBy_container row">
-            <div className="col-6">
+            <div className="col-lg-6 col-md-12 col-sm-12">
               <p className="TrustedBy_leftparagraph_heading">TRUSTED BY</p>
               <p className="TrustedBy_leftparagraph_para">
                 <b> Global Leaders </b> For Custom Software Development
               </p>
             </div>
-            <div className="TrustedBy_Rightparagraph col-6">
+            <div className="TrustedBy_Rightparagraph col-lg-6 col-md-12 col-sm-12">
               <p className="TrustedBy_Rightparagraph_paragraph">
                 Global Leaders Trust Us as their IT Services Company From
                 startups to large-scale enterprises, we have helped our clients
@@ -315,7 +315,7 @@ const LatestWork = () => {
 
         <section>
           <main className="BLOG_row row">
-            <div className="BLOG_Left_col col-6">
+            <div className="BLOG_Left_col col-lg-6 col-md-12 col-sm-12">
               <div>
                 <p className="BLOG_heading">TECHNICAL BLOGS</p>
                 <p className="BLOG_paragraph">
@@ -327,7 +327,6 @@ const LatestWork = () => {
                 </p>
               </div>
 
-              {/* client say  video card */}
               {/* Blog_Picture_one */}
               <div id="Blog_Picture_one" className="Blog_Picture_div">
                 <p className="Blog_Picture_div_para">
@@ -342,7 +341,7 @@ const LatestWork = () => {
                 </p>
               </div>
             </div>
-            <div className="col-6">
+            <div className="BLOG_right_col col-lg-6 col-md-12 col-sm-12">
               {/* Blog_Picture_Three */}
               <div id="Blog_Picture_Three" className="Blog_Picture_div">
                 <p className="Blog_Picture_div_para">

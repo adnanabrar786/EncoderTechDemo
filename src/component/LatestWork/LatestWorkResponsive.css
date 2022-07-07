@@ -21,11 +21,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-
-    .latestWork_main {
-        margin: 0px 5px;
-      }
-
   .discuss_container {
     width: 95%;
   }
@@ -44,6 +39,10 @@
 /* latestwork section start */
 
 @media only screen and (max-width: 968px) {
+  .latestWork_main {
+    margin: 0px 5px;
+  }
+
   .latestWork_upperdiv > p {
     text-align: center;
   }
@@ -114,13 +113,12 @@
 /* industry we serve section start */
 
 @media only screen and (max-width: 986px) {
-
-    .industry_container {
-        margin-left: 5px;
-      }
+  .industry_container {
+    margin-left: 5px;
+  }
 
   .industry_Leftparagraph {
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,34 +131,169 @@
   .industry_leftparagraph_heading {
     font-size: 14px;
     letter-spacing: 6px;
-
   }
 
   .industry_Rightparagraph {
-    border:none;
+    border: none;
+    justify-content: left;
   }
 
   .industry_Rightparagraph_paragraph {
+    justify-content: left;
     font-size: 16px;
-    width: 85%;
+    width: 95%;
     text-align: center;
   }
-  
 }
 
-
-
 @media only screen and (max-width: 600px) {
-
-    /* .industry_Leftparagraph {
-        width: 100%;
-    } */
-    .industry_leftparagraph_para {
-        font-size: 18px;
-        width:95%;
-      }
-    
-   
-    }
+  .industry_leftparagraph_para {
+    font-size: 18px;
+    width: 95%;
+  }
+}
 
 /* industry we serve section end */
+
+/* archievement section start */
+
+@media only screen and (max-width: 1200px) {
+  .ARCHIEVEMENT_rightwork_container {
+    margin-top: 15px;
+  }
+
+  .ARCHIEVEMENT_rightwork_paragraph {
+    margin-top: 5px;
+  }
+
+  .ARCHIEVEMENT_rightwork_logo_Subdiv {
+    width: 100px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 988px) {
+  .ARCHIEVEMENT_rightwork_container {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  #ARCHIEVEMENT_rightwork_subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ARCHIEVEMENT_rightwork_paragraph {
+    width: 85%;
+  }
+
+  .ARCHIEVEMENT_rightwork_container {
+    padding-left: 10px;
+  }
+
+  .ARCHIEVEMENT_rightwork_logodiv {
+    justify-content: center;
+    margin-left: 5px;
+  }
+
+  .ARCHIEVEMENT_rightwork_logo_Subdiv {
+    width: 165px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ARCHIEVEMENT_LEFT_DIV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 650px;
+  }
+
+  .ARCHIEVEMENT_LEFT_DIV_heading {
+    padding-top: 40px;
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .ARCHIEVEMENT_LEFT_button {
+    margin-top: 30px;
+  }
+
+  .ARCHIEVEMENT_rightwork_container {
+    padding-left: 10px;
+  }
+  .ARCHIEVEMENT_rightwork_heading {
+    font-size: 22px;
+  }
+
+  .ARCHIEVEMENT_rightwork_paragraph {
+    font-size: 15px;
+  }
+
+  .ARCHIEVEMENT_rightwork_logodiv {
+    justify-content: center;
+    margin-left: 5px;
+  }
+}
+
+/* archievement section end */
+
+/* trustedby section start */
+
+@media only screen and (max-width: 988px) {
+  
+  .TrustedBy_container {
+    margin-left: 30px;
+    text-align: center;
+  }
+
+  .TrustedBy_leftparagraph_para {
+    width: 95%;
+    font-size: 30px;
+  }
+
+  .TrustedBy_Rightparagraph {
+    border: none;
+  }
+
+  .TrustedBy_Rightparagraph_paragraph {
+    margin-left: 5px;
+    width: 95%;
+  }
+
+  .TrustedBy_map_container {
+    justify-content: center;
+    padding: 0px 50px;
+    margin: 30px 0px;
+  }
+
+  .CardTrustedBy_card {
+   margin-top: 5px;
+   margin-left: 5px;
+  }
+ 
+}
+
+/* trustedby section end */
+
+/* TECHNICAL BLOG SECTION START */
+
+@media only screen and (max-width: 988px) {
+
+     .BLOG_Left_col {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       justify-content: center;
+     }
+
+     .BLOG_right_col {
+       text-align: center;
+     }
+  }
+
+/* TECHNICAL BLOG SECTION end */
